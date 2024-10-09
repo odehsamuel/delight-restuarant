@@ -40,7 +40,7 @@ function RegModal({ closeModal, name }) {
             </label>
             <input
               type="email"
-              placeholder="e.g example@yahoo.com"
+              placeholder="e.g antonmax@gmail.com"
               className="rounded-md outline-none bg-slate-200 border-2 border-slate-400/50 text-slate-700 hover/active:bg-blue-100 px-2 py-1"
             />
           </div>

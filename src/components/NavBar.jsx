@@ -8,9 +8,11 @@ function NavBar() {
   const [loggedIn, setloggedIn] = useState(false);
   const [opened, setOpened] = useState(false);
   const [title, setTitle] = useState("");
+  const [openSidebar, setOpensidebar] = useState(false);
 
   return (
     <>
+      {openSidebar && <Sidebar closeModal={() => setOpensidebar(false)} />}
       {opened && <RegModal name={title} closeModal={() => setOpened(false)} />}
       <nav className="nav-items w-full">
         <Link to="/" className="logo-container">
@@ -64,48 +66,15 @@ function NavBar() {
             </button>
           </div>
         )}
-        {/* <div>
-        <button
-          class="btn btn-primary"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasWithBothOptions"
-          aria-controls="offcanvasWithBothOptions"
-        >
-          <img src={togggleIcon} alt="toggle-icon" className="w-10 h-10" />
-        </button> */}
 
-        {/* <div
-          class="offcanvas offcanvas-start"
-          data-bs-scroll="true"
-          tabindex="-1"
-          id="offcanvasWithBothOptions"
-          aria-labelledby="offcanvasWithBothOptionsLabel"
+        <div
+          className="w-12 h-8 flex flex-col items-center justify-between"
+          onClick={() => setOpensidebar(true)}
         >
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
-              Backdrop with scrolling
-            </h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="offcanvas-body">
-            <p>
-              Try scrolling the rest of the page to see this option in action.
-            </p>
-          </div>
-        </div> */}
-        {/* </div> */}
-        {/* <div className="hamburger__container">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div> */}
-        {/* <Sidebar/> */}
+          <span className="w-full h-0.5 bg-slate-100"></span>
+          <span className="w-full h-0.5 bg-slate-100"></span>
+          <span className="w-full h-0.5 bg-slate-100"></span>
+        </div>
       </nav>
     </>
   );

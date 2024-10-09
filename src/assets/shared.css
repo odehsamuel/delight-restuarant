@@ -181,22 +181,6 @@ body{
   cursor: pointer;
 }
 
-
-.hamburger__container {
-  /* color: #0e082c; */
-  width: 3rem;
-  height: 2rem;
-  z-index: 2;
-  display: flex;
-  
-}
-
-.hamburger__container span {
-  width: 4rem;
-  height: 2rem;
-  color: #ebe6e6 !important;
-}
-
 .footer__container {
   background: #06050b;
   border-top: 2px solid #ff1e1e;

@@ -6,23 +6,23 @@ function ChefList() {
   return (
     <div>
       <section id="main__chefs">
-        <h1 className="chef-title">Meet Our Chefs</h1>
+        <h1 className="text-center font-bold text-2xl mt-6 text-slate-800">Meet Our Chefs</h1>
         <div className="chefs">
           <div className="chefs__container">
             <div className="chefs__image">
               <img src={Chef1} alt="chef-1" />
               <div className="socials">
                 <a href="#">
-                  <i className="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                  <i className="fa fa-facebook fa-lg p-2" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i className="fa fa-whatsapp fa-lg" aria-hidden="true"></i>
+                  <i className="fa fa-whatsapp fa-lg p-2" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i className="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                  <i className="fa fa-instagram fa-lg p-2" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i className="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+                  <i className="fa fa-linkedin fa-lg p-2" aria-hidden="true"></i>
                 </a>
               </div>
             </div>
@@ -46,16 +46,16 @@ function ChefList() {
               <img src={Chef2} alt="chef-2" />
               <div className="socials">
                 <a href="#">
-                  <i className="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                  <i className="fa fa-facebook fa-lg p-2" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i className="fa fa-whatsapp fa-lg" aria-hidden="true"></i>
+                  <i className="fa fa-whatsapp fa-lg p-2" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i className="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                  <i className="fa fa-instagram fa-lg p-2" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i className="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+                  <i className="fa fa-linkedin fa-lg p-2" aria-hidden="true"></i>
                 </a>
               </div>
             </div>
@@ -79,16 +79,16 @@ function ChefList() {
               <img src={Chef3} alt="chef-3" />
               <div className="socials">
                 <a href="#">
-                  <i className="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                  <i className="fa fa-facebook fa-lg p-2" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i className="fa fa-whatsapp fa-lg" aria-hidden="true"></i>
+                  <i className="fa fa-whatsapp fa-lg p-2" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i className="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                  <i className="fa fa-instagram fa-lg p-2" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i className="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+                  <i className="fa fa-linkedin fa-lg p-2" aria-hidden="true"></i>
                 </a>
               </div>
             </div>

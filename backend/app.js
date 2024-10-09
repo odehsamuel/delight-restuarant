@@ -1,10 +1,9 @@
-const http = require('http')
+const express = require('express')
 
-const  handleResponse = (request, response) => {
-    response.statusCode = 200
-    response.end("<h1>Hello World</h1>")
-}
+const app = express()
 
-const server = http.createServer(handleResponse)
+app.get('/', (res, req) => {
 
-server.listen(3000)
+})
+
+app.listen(3000)

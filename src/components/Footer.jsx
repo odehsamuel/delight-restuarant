@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer>
       <div className="footer__container">
-        <div className="footer__container-content">
+        <div className="flex md:flex-row flex-col gap-4 md:justify-center">
           <div className="content">
             <h1>ABOUT US</h1>
             <ul className="content-lists">

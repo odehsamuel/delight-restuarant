@@ -80,10 +80,6 @@ main {
     font-size: 2.5rem;
 }
 
-#main__services {
-    margin-top: 3rem;
-}
-
 
 .categories {
     display: flex;
@@ -126,10 +122,6 @@ main {
     border: 0.25rem solid #0a1f74;
     border-radius: 8px;
     padding: 0.30rem;
-}
-
-#main__services .main__services-title {
-    text-align: center;
 }
 
 .services-container .dish-container {
@@ -281,11 +273,6 @@ main {
 
 .socials a {
     color: #201e1e;
-}
-
-.socials i {
-    padding: 0.35rem 0.35rem;
-    height: 1.5rem;
 }
 
 .socials i:hover, 

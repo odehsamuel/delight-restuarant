@@ -8,7 +8,7 @@ import Vegetables from "../assets/images/e5d42f4055e6cf0eb9bb8c42cddc8a8a.jpg"
 function SpecialOffers() {
   return (
     <section id="main__services">
-      <h1 className="main__services-title">Special Offers</h1>
+      <h1 className="text-center font-bold text-2xl mb-2 mt-6 text-slate-800">Special Offers</h1>
       <ul className="categories">
         <a href="#">
           <li className="home-category">Home</li>

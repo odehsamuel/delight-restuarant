@@ -3,6 +3,45 @@
 @tailwind utilities;
 /* shared css for the restuarant */
 
+:root {
+  /* Primary Brand Colors */
+  --gold-primary: #d4af37;
+  --gold-secondary: #b8941f;
+
+  /* Neutral Colors */
+  --dark-primary: #2c2c2c;
+  --dark-secondary: #1a1a1a;
+  --dark-medium: #666666;
+  --dark-light: #777777;
+
+  /* Background Colors */
+  --white: #ffffff;
+  --off-white: #fafafa;
+  --bg-white: #f8f9fa;
+  --border-color: #e9ecef;
+
+  /* Food Category Colors */
+  --brown-warm: #8b4513;
+  --brown-dark: #654321;
+
+  /* Status Colors */
+  --success: #27ae60;
+  --errror: #e74c3c;
+  --info: #3498db;
+
+  /* Dietary Tag Colors */
+  --vegetarian-bg: #d4edda;
+  --vegetarian-text: #155724;
+  --vegan-bg: #d1ecf1;
+  --vegan-text: #0c5460;
+  --gluten-free-bg: #fff3cd;
+  --gluten-free-text: #856404;
+  --spicy-bg: #f8d7da;
+  --spicy-text: #721c24;
+
+  /* Gradients */
+}
+
 /* *{
     margin: 0;
     padding: 0;
@@ -107,22 +146,21 @@ aside img{
     left: 45%;
 } */
 
-
 /* =================================================== */
 /* =================================================== */
 /* New styles for the resturant */
 
-*{
+* {
   box-sizing: border-box;
   /* font-family: sans-serif; */
 }
 
-body{
+body {
   margin: 0;
 }
 
-.nav-items{
-  background: linear-gradient(to right, #0e082c 70%,rgba(139, 138, 138, 0.5) ) ;
+.nav-items {
+  background: linear-gradient(to right, #0e082c 70%, rgba(139, 138, 138, 0.5));
   /* background: #0e0a29; */
   padding: 1rem 2rem;
   display: flex;
@@ -139,7 +177,7 @@ body{
   color: #cecece;
 }
 
-.navigations{
+.navigations {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -162,7 +200,6 @@ body{
   color: #ff1e1e;
   cursor: pointer;
 }
-
 
 .navigations-btn {
   font-family: sans-serif;
@@ -216,7 +253,7 @@ body{
   text-align: center;
   align-items: center;
   padding: 1rem 3rem;
-  margin: 0 ;
+  margin: 0;
   height: 4rem;
 }
 
@@ -225,7 +262,7 @@ body{
   color: #616161;
 }
 
-.services{
+.services {
   display: none;
   list-style: none;
   padding: 0;
@@ -241,7 +278,7 @@ hr {
 }
 
 .newsletter__container {
-  margin: 0 auto; 
+  margin: 0 auto;
   padding: 3rem 0;
   max-width: 65vw;
   text-align: center;
@@ -271,7 +308,7 @@ hr {
   z-index: 1;
 }
 
-label ,
+label,
 input {
   display: block;
   width: 100%;
@@ -334,14 +371,14 @@ label {
 
 @media (min-width: 40rem) {
   .newsletter__container {
-      max-width: 35rem;
+    max-width: 35rem;
   }
 
   .newsletter__container img {
-      height: 3rem;
-      position: absolute;
-      top: 15%;
-      left: 30%;
-      z-index: 1;
+    height: 3rem;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    z-index: 1;
   }
 }

@@ -5,44 +5,42 @@ import { useState } from "react";
 import RegModal from "./RegModal";
 
 function NavBar() {
-  const [loggedIn, setloggedIn] = useState(false);
+  const [loggedIn, setloggedIn] = useState(true);
   const [opened, setOpened] = useState(false);
   const [title, setTitle] = useState("");
   const [openSidebar, setOpensidebar] = useState(false);
 
   return (
     <>
-      {openSidebar && <Sidebar closeModal={() => setOpensidebar(false)} />}
-      {opened && <RegModal name={title} closeModal={() => setOpened(false)} />}
-      <nav className="nav-items w-full">
-        <Link to="/" className="logo-container">
-          <i className="fa fa-cutlery logo fa-2x" aria-hidden="true"></i>
+      {/* {openSidebar && <Sidebar closeModal={() => setOpensidebar(false)} />}
+      {opened && <RegModal name={title} closeModal={() => setOpened(false)} />} */}
+      <nav className="bg-dark-secondary flex justify-between px-16 py-8 w-full">
+        <Link to="/" className="">
+          <h3 className="text-gold-secondary text-4xl">Delightful Kitchen</h3>
+          {/* <i className="fa fa-cutlery logo fa-2x" aria-hidden="true"></i> */}
           {/* <img src="images/home.png" alt="logo image" /> */}
         </Link>
-        <div className="navigations">
-          <Link to="/services">
-            <div className="service-dropdown">
-              <p>Services</p>
+        <div className="text-gray-white flex items-center">
+          <Link to="/about" className="mx-4 hover:text-gold-secondary">
+            <p>About</p>
+          </Link>
+          <Link to="/menu" className="mx-4 hover:text-gold-secondary">
+            <div className="menu-dropdown">
+              <p>Menu</p>
               {/* <img src="/images/down-arrow.png" alt="arrow-down" /> */}
             </div>
           </Link>
-          <ul className="services">
-            <li>Reservations</li>
-            <li>Delivery</li>
-            <li>Bookings</li>
-          </ul>
-          <Link to="/chefs">
+          <Link to="/chefs" className="mx-4 hover:text-gold-secondary">
             <p>Chefs</p>
           </Link>
-          <Link to="/reviews">
-            <p>Reviews</p>
-          </Link>
-          <Link to="/about">
-            <p>About</p>
+          <Link to="/contact" className="mx-4 hover:text-gold-secondary">
+            <p>Contact</p>
           </Link>
         </div>
         {loggedIn ? (
-          <button className="navigations-btn">Order Now</button>
+          <button className="bg-gold-secondary text-gray-white rounded-3xl px-8 py-2">
+            Reserve Table
+          </button>
         ) : (
           <div className="flex items-center">
             <button
@@ -67,14 +65,14 @@ function NavBar() {
           </div>
         )}
 
-        <div
+        {/* <div
           className="w-12 h-8 flex flex-col items-center justify-between"
           onClick={() => setOpensidebar(true)}
         >
           <span className="w-full h-0.5 bg-slate-100"></span>
           <span className="w-full h-0.5 bg-slate-100"></span>
           <span className="w-full h-0.5 bg-slate-100"></span>
-        </div>
+        </div> */}
       </nav>
     </>
   );

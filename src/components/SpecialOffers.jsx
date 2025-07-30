@@ -1,19 +1,35 @@
-import Noodles from "../assets/images/noodles.jpg"
-import Pizza from "../assets/images/pizar.jpg"
-import FriedRice from "../assets/images/ceb8478069c206a6d2e68fca82763fea.jpg"
-import SausageRoll from "../assets/images/fa58340b287cb01d9c0779e190885f4e.jpg"
-import ChineseRecipe from "../assets/images/b37299c474375bdf7c979d11caaa8917.jpg"
-import Vegetables from "../assets/images/e5d42f4055e6cf0eb9bb8c42cddc8a8a.jpg"
+import Noodles from "../assets/images/noodles.jpg";
+import Pizza from "../assets/images/pizar.jpg";
+import FriedRice from "../assets/images/ceb8478069c206a6d2e68fca82763fea.jpg";
+import SausageRoll from "../assets/images/fa58340b287cb01d9c0779e190885f4e.jpg";
+import ChineseRecipe from "../assets/images/b37299c474375bdf7c979d11caaa8917.jpg";
+import Vegetables from "../assets/images/e5d42f4055e6cf0eb9bb8c42cddc8a8a.jpg";
 
 function SpecialOffers() {
   return (
     <section id="main__services">
-      <h1 className="text-center font-bold text-2xl mb-2 mt-6 text-slate-800">Special Offers</h1>
+      <h1 className="text-center font-bold text-2xl mb-2 mt-6 text-slate-800">
+        Special Offers
+      </h1>
       <ul className="categories">
-        <a href="#">
-          <li className="home-category">Home</li>
+        <a href="#" className="py-2">
+          <li className="text-restuarant-charcoal py-1 px-4 rounded-xl bg-gold-primary">
+            All
+          </li>
         </a>
-        <a href="#">
+        <a href="#" className="py-2 rounded-md text-gold-200">
+          <li>Appetizers</li>
+        </a>
+        <a href="#" className="py-2 rounded-md text-gold-200">
+          <li>Main Course</li>
+        </a>
+        <a href="#" className="py-2 rounded-md text-gold-200">
+          <li>Desserts</li>
+        </a>
+        <a href="#" className="py-2 rounded-md text-gold-200">
+          <li>Beverages</li>
+        </a>
+        {/* <a href="#">
           <li>Fast-Food</li>
         </a>
         <a href="#">
@@ -21,9 +37,9 @@ function SpecialOffers() {
         </a>
         <a href="#">
           <li>Cafeteria</li>
-        </a>
+        </a> */}
       </ul>
-      <div className="offer-services">
+      {/* <div className="offer-services">
         <div className="services-container">
           <article className="dish-container">
             <img src={Noodles} alt="dish image" />
@@ -173,7 +189,7 @@ function SpecialOffers() {
             </div>
           </article>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

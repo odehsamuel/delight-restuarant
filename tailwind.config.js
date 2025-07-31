@@ -25,11 +25,6 @@ module.exports = {
           charcoal: "#2c2c2c",
           "rich-black": "#1a1a1a",
         },
-        background: {
-          "gold-gradient": "linear-gradient(135deg, #d4af37, #b8941f)",
-          "food-gradient": "linear-gradient(135deg, #8b4513 , #d4af37)",
-          "dark-gradient": "linear-gradient(135deg, #2c2c2c , #1a1a1a)",
-        },
       },
       backgroundImage: {
         "gold-gradient": "linear-gradient(135deg, #d4af37, #b8941f)",

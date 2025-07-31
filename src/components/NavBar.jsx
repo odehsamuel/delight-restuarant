@@ -14,7 +14,7 @@ function NavBar() {
     <>
       {/* {openSidebar && <Sidebar closeModal={() => setOpensidebar(false)} />}
       {opened && <RegModal name={title} closeModal={() => setOpened(false)} />} */}
-      <nav className="bg-dark-secondary flex justify-between px-16 py-8 w-full">
+      <nav className="bg-dark-secondary z-10 flex fixed justify-between px-16 py-8 w-full">
         <Link to="/" className="">
           <h3 className="text-gold-secondary text-4xl">Delightful Kitchen</h3>
           {/* <i className="fa fa-cutlery logo fa-2x" aria-hidden="true"></i> */}

@@ -55,7 +55,7 @@ function Home() {
       <Guests />
       <ChefList />
       <Reservation />
-      <Newsletter />
+      {/* <Newsletter /> */}
       <Footer />
     </div>
   );

@@ -128,33 +128,33 @@ body {
   cursor: pointer;
 }
 
-.footer__container {
+/* .footer__container {
   background: #06050b;
   border-top: 2px solid #ff1e1e;
   padding: 2rem 2rem;
   padding-bottom: 3rem;
-}
+} */
 
-.content {
-  max-width: 15rem;
-}
+/* .content {
+  max-width: 20rem;
+} */
 
-.content h1 {
+/* .content h1 {
   color: #b6afaf;
   font-size: 1.25rem;
-}
+} */
 
-.content-lists {
+/* .content-lists {
   list-style: none;
   padding: 0;
   margin: 0;
   color: #616161;
-}
+} */
 
-.content-lists i {
+/* .content-lists i {
   color: #ff1e1e;
   margin-right: 1rem;
-}
+} */
 
 .social-media {
   background: #0e0c14;

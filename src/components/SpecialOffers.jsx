@@ -8,25 +8,38 @@ import Vegetables from "../assets/images/e5d42f4055e6cf0eb9bb8c42cddc8a8a.jpg";
 function SpecialOffers() {
   return (
     <section id="main__services">
-      <h1 className="text-center font-bold text-2xl mb-2 mt-6 text-slate-800">
+      <h1 className="text-center font-bold text-4xl mb-6 mt-6 text-slate-800">
         Special Offers
       </h1>
-      <ul className="categories">
-        <a href="#" className="py-2">
-          <li className="text-restuarant-charcoal py-1 px-4 rounded-xl bg-gold-primary">
-            All
-          </li>
+      <ul className="flex justify-center text-gold-primary mb-12">
+        <a
+          href="#"
+          className="py-2 px-8 mx-4 rounded-3xl border-2 border-gold-primary bg-gold-primary text-gray-white"
+        >
+          <li className="">All</li>
         </a>
-        <a href="#" className="py-2 rounded-md text-gold-200">
+        <a
+          href="#"
+          className="py-2 px-8 mx-4 rounded-3xl border-2 border-gold-primary hover:bg-gold-primary hover:text-gray-white"
+        >
           <li>Appetizers</li>
         </a>
-        <a href="#" className="py-2 rounded-md text-gold-200">
+        <a
+          href="#"
+          className="py-2 px-8 mx-4 rounded-3xl border-2 border-gold-primary hover:bg-gold-primary hover:text-gray-white"
+        >
           <li>Main Course</li>
         </a>
-        <a href="#" className="py-2 rounded-md text-gold-200">
+        <a
+          href="#"
+          className="py-2 px-8 mx-4 rounded-3xl border-2 border-gold-primary hover:bg-gold-primary hover:text-gray-white"
+        >
           <li>Desserts</li>
         </a>
-        <a href="#" className="py-2 rounded-md text-gold-200">
+        <a
+          href="#"
+          className="py-2 px-8 mx-4 rounded-3xl border-2 border-gold-primary hover:bg-gold-primary hover:text-gray-white"
+        >
           <li>Beverages</li>
         </a>
         {/* <a href="#">
@@ -39,6 +52,463 @@ function SpecialOffers() {
           <li>Cafeteria</li>
         </a> */}
       </ul>
+      <div className="offer-services">
+        <div className="transition hover:-translate-y-4">
+          <article className="shadow-lg rounded-xl overflow-hidden">
+            <div className="relative">
+              <img
+                src={Pizza}
+                alt="Dish Image"
+                className="object-cover w-full h-80"
+              />
+              <div className="bg-[var(--info)] text-gray-white px-3 py-1 rounded-2xl absolute top-1 right-1">
+                <p>New</p>
+              </div>
+            </div>
+            <div className="dish-details">
+              <div className="flex justify-between mb-4">
+                <h1 className="text-4xl">Truffle Margherita Pizza</h1>
+                <p className="text-gold-primary text-3xl">$18</p>
+              </div>
+              <p className="mb-8">
+                Hand-pulled noodles tossed in our signature spicy Szechuan sauce
+                with fresh vegetables, tender beef, and aromatic spices. A
+                perfect balance of heat and flavor
+              </p>
+              <div className="food-labels">
+                <div className="flex items-center">
+                  <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
+                    ⏱️
+                  </span>
+                  <p>15-20mins</p>
+                </div>
+                <div className="flex items-center">
+                  <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
+                    🥜
+                  </span>
+                  <p>Peanut Sauce</p>
+                </div>
+                <div className="flex items-center">
+                  <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
+                    🌶️
+                  </span>
+                  <p>Medium Spicy</p>
+                </div>
+              </div>
+              <div className="dietary-tags">
+                <p className="text-[var(--vegan-text)] bg-[var(--vegan-bg)] text-center px-2 py-1 text-[16px] rounded-3xl">
+                  Vegan
+                </p>
+
+                <p className="text-[var(--gluten-free-text)] bg-[var(--gluten-free-bg)] text-center px-2 py-1 text-[16px] rounded-3xl">
+                  Gluton Free
+                </p>
+                <p className="text-[var(--spicy-text)] bg-[var(--spicy-bg)] text-center px-2 py-1 text-[16px] rounded-3xl">
+                  Spicy
+                </p>
+              </div>
+              <div className="flex justify-between items-center mb-8">
+                <p>
+                  <span className="text-gold-primary">⭐⭐⭐⭐⭐</span>(4.89)
+                  128 reviews
+                </p>
+                <p className="text-gold-primary">Chefs signature</p>
+              </div>
+              <div className="flex justify-between">
+                <p className="bg-gold-primary text-gray-white border-2 py-2 px-6 rounded-3xl">
+                  Add to Cart
+                </p>
+                <p className="texrt-gold-primary border-2 border-gold-primary py-2 px-6 rounded-3xl">
+                  Customize
+                </p>
+                <p className="border-2 rounded-full w-12 h-12 flex items-center justify-center">
+                  <i className="fa fa-heart-o"></i>
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div className="transition hover:-translate-y-4">
+          <article className="shadow-lg rounded-xl overflow-hidden">
+            <div className="relative">
+              <img
+                src={FriedRice}
+                alt="Dish Image"
+                className="object-cover w-full h-80"
+              />
+              <div className="bg-[var(--success)] text-gray-white px-3 py-1 rounded-2xl absolute top-1 right-1">
+                <p>Popular</p>
+              </div>
+            </div>
+            <div className="dish-details">
+              <div className="flex justify-between mb-4">
+                <h1 className="text-4xl">Seafood Fried Rice</h1>
+                <p className="text-gold-primary text-3xl">$18</p>
+              </div>
+              <p className="mb-8">
+                Hand-pulled noodles tossed in our signature spicy Szechuan sauce
+                with fresh vegetables, tender beef, and aromatic spices. A
+                perfect balance of heat and flavor
+              </p>
+              <div className="food-labels">
+                <div className="flex items-center">
+                  <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
+                    ⏱️
+                  </span>
+                  <p>15-20mins</p>
+                </div>
+                <div className="flex items-center">
+                  <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
+                    🥜
+                  </span>
+                  <p>Peanut Sauce</p>
+                </div>
+                <div className="flex items-center">
+                  <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
+                    🌶️
+                  </span>
+                  <p>Medium Spicy</p>
+                </div>
+              </div>
+              <div className="dietary-tags">
+                <p className="text-[var(--vegan-text)] bg-[var(--vegan-bg)] text-center px-2 py-1 text-[16px] rounded-3xl">
+                  Vegan
+                </p>
+
+                <p className="text-[var(--gluten-free-text)] bg-[var(--gluten-free-bg)] text-center px-2 py-1 text-[16px] rounded-3xl">
+                  Gluton Free
+                </p>
+                <p className="text-[var(--spicy-text)] bg-[var(--spicy-bg)] text-center px-2 py-1 text-[16px] rounded-3xl">
+                  Spicy
+                </p>
+              </div>
+              <div className="flex justify-between items-center mb-8">
+                <p>
+                  <span className="text-gold-primary">⭐⭐⭐⭐⭐</span>(4.89)
+                  128 reviews
+                </p>
+                <p className="text-gold-primary">Chefs signature</p>
+              </div>
+              <div className="flex justify-between">
+                <p className="bg-gold-primary text-gray-white border-2 py-2 px-6 rounded-3xl">
+                  Add to Cart
+                </p>
+                <p className="texrt-gold-primary border-2 border-gold-primary py-2 px-6 rounded-3xl">
+                  Customize
+                </p>
+                <p className="border-2 rounded-full w-12 h-12 flex items-center justify-center">
+                  <i className="fa fa-heart-o"></i>
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div className="transition hover:-translate-y-4">
+          <article className="shadow-lg rounded-xl overflow-hidden">
+            <div className="relative">
+              <img
+                src={SausageRoll}
+                alt="Dish Image"
+                className="object-cover w-full h-80"
+              />
+              <div className="bg-[var(--error)] text-gray-white px-3 py-1 rounded-2xl absolute top-1 right-1">
+                <p>-30%</p>
+              </div>
+            </div>
+            <div className="dish-details">
+              <div className="flex justify-between mb-4">
+                <h1 className="text-4xl">Vietnamese Spring Rolls</h1>
+                <p className="text-gold-primary text-3xl">$18</p>
+              </div>
+              <p className="mb-8">
+                Hand-pulled noodles tossed in our signature spicy Szechuan sauce
+                with fresh vegetables, tender beef, and aromatic spices. A
+                perfect balance of heat and flavor
+              </p>
+              <div className="food-labels">
+                <div className="flex items-center">
+                  <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
+                    ⏱️
+                  </span>
+                  <p>15-20mins</p>
+                </div>
+                <div className="flex items-center">
+                  <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
+                    🥜
+                  </span>
+                  <p>Peanut Sauce</p>
+                </div>
+                <div className="flex items-center">
+                  <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
+                    🌶️
+                  </span>
+                  <p>Medium Spicy</p>
+                </div>
+              </div>
+              <div className="dietary-tags">
+                <p className="text-[var(--vegetarian-text)] bg-[var(--vegetarian-bg)] text-center px-2 py-1 text-[16px] rounded-3xl">
+                  Vegetarrian
+                </p>
+
+                <p className="text-[var(--gluten-free-text)] bg-[var(--gluten-free-bg)] text-center px-2 py-1 text-[16px] rounded-3xl">
+                  Gluton Free
+                </p>
+                {/* <p className="text-[var(--spicy-text)] bg-[var(--spicy-bg)] text-center px-2 py-1 text-[16px] rounded-3xl">
+                  Spicy
+                </p> */}
+              </div>
+              <div className="flex justify-between items-center mb-8">
+                <p>
+                  <span className="text-gold-primary">⭐⭐⭐⭐⭐</span>(4.89)
+                  128 reviews
+                </p>
+                <p className="text-gold-primary">Chefs signature</p>
+              </div>
+              <div className="flex justify-between">
+                <p className="bg-gold-primary text-gray-white border-2 py-2 px-6 rounded-3xl">
+                  Add to Cart
+                </p>
+                <p className="texrt-gold-primary border-2 border-gold-primary py-2 px-6 rounded-3xl">
+                  Customize
+                </p>
+                <p className="border-2 rounded-full w-12 h-12 flex items-center justify-center">
+                  <i className="fa fa-heart-o"></i>
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div className="transition hover:-translate-y-4">
+          <article className="shadow-lg rounded-xl overflow-hidden">
+            <div className="relative">
+              <img
+                src={Vegetables}
+                alt="Dish Image"
+                className="object-cover w-full h-80"
+              />
+              {/* <div className="bg-[var(--error)] text-gray-white px-3 py-1 rounded-2xl absolute top-1 right-1">
+                <p>-30%</p>
+              </div> */}
+            </div>
+            <div className="dish-details">
+              <div className="flex justify-between mb-4">
+                <h1 className="text-4xl">Meditarranean Grilled Vegetables</h1>
+                <p className="text-gold-primary text-3xl">$18</p>
+              </div>
+              <p className="mb-8">
+                Hand-pulled noodles tossed in our signature spicy Szechuan sauce
+                with fresh vegetables, tender beef, and aromatic spices. A
+                perfect balance of heat and flavor
+              </p>
+              <div className="food-labels">
+                <div className="flex items-center">
+                  <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
+                    ⏱️
+                  </span>
+                  <p>15-20mins</p>
+                </div>
+                <div className="flex items-center">
+                  <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
+                    🥜
+                  </span>
+                  <p>Peanut Sauce</p>
+                </div>
+                <div className="flex items-center">
+                  <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
+                    🌶️
+                  </span>
+                  <p>Medium Spicy</p>
+                </div>
+              </div>
+              <div className="dietary-tags">
+                <p className="text-[var(--vegan-text)] bg-[var(--vegan-bg)] text-center px-2 py-1 text-[16px] rounded-3xl">
+                  Vegan
+                </p>
+
+                <p className="text-[var(--gluten-free-text)] bg-[var(--gluten-free-bg)] text-center px-2 py-1 text-[16px] rounded-3xl">
+                  Gluton Free
+                </p>
+                <p className="text-[var(--spicy-text)] bg-[var(--spicy-bg)] text-center px-2 py-1 text-[16px] rounded-3xl">
+                  Spicy
+                </p>
+              </div>
+              <div className="flex justify-between items-center mb-8">
+                <p>
+                  <span className="text-gold-primary">⭐⭐⭐⭐⭐</span>(4.89)
+                  128 reviews
+                </p>
+                <p className="text-gold-primary">Chefs signature</p>
+              </div>
+              <div className="flex justify-between">
+                <p className="bg-gold-primary text-gray-white border-2 py-2 px-6 rounded-3xl">
+                  Add to Cart
+                </p>
+                <p className="texrt-gold-primary border-2 border-gold-primary py-2 px-6 rounded-3xl">
+                  Customize
+                </p>
+                <p className="border-2 rounded-full w-12 h-12 flex items-center justify-center">
+                  <i className="fa fa-heart-o"></i>
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div className="transition hover:-translate-y-4">
+          <article className="shadow-lg rounded-xl overflow-hidden">
+            <div className="relative">
+              <img
+                src={SausageRoll}
+                alt="Dish Image"
+                className="object-cover w-full h-80"
+              />
+              <div className="bg-[var(--error)] text-gray-white px-3 py-1 rounded-2xl absolute top-1 right-1">
+                <p>-30%</p>
+              </div>
+            </div>
+            <div className="dish-details">
+              <div className="flex justify-between mb-4">
+                <h1 className="text-4xl">Vietnamese Spring Rolls</h1>
+                <p className="text-gold-primary text-3xl">$18</p>
+              </div>
+              <p className="mb-8">
+                Hand-pulled noodles tossed in our signature spicy Szechuan sauce
+                with fresh vegetables, tender beef, and aromatic spices. A
+                perfect balance of heat and flavor
+              </p>
+              <div className="food-labels">
+                <div className="flex items-center">
+                  <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
+                    ⏱️
+                  </span>
+                  <p>15-20mins</p>
+                </div>
+                <div className="flex items-center">
+                  <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
+                    🥜
+                  </span>
+                  <p>Peanut Sauce</p>
+                </div>
+                <div className="flex items-center">
+                  <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
+                    🌶️
+                  </span>
+                  <p>Medium Spicy</p>
+                </div>
+              </div>
+              <div className="dietary-tags">
+                <p className="text-[var(--vegan-text)] bg-[var(--vegan-bg)] text-center px-2 py-1 text-[16px] rounded-3xl">
+                  Vegan
+                </p>
+
+                <p className="text-[var(--gluten-free-text)] bg-[var(--gluten-free-bg)] text-center px-2 py-1 text-[16px] rounded-3xl">
+                  Gluton Free
+                </p>
+                <p className="text-[var(--spicy-text)] bg-[var(--spicy-bg)] text-center px-2 py-1 text-[16px] rounded-3xl">
+                  Spicy
+                </p>
+              </div>
+              <div className="flex justify-between items-center mb-8">
+                <p>
+                  <span className="text-gold-primary">⭐⭐⭐⭐⭐</span>(4.89)
+                  128 reviews
+                </p>
+                <p className="text-gold-primary">Chefs signature</p>
+              </div>
+              <div className="flex justify-between">
+                <p className="bg-gold-primary text-gray-white border-2 py-2 px-6 rounded-3xl">
+                  Add to Cart
+                </p>
+                <p className="texrt-gold-primary border-2 border-gold-primary py-2 px-6 rounded-3xl">
+                  Customize
+                </p>
+                <p className="border-2 rounded-full w-12 h-12 flex items-center justify-center">
+                  <i className="fa fa-heart-o"></i>
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div className="transition hover:-translate-y-4">
+          <article className="shadow-lg rounded-xl overflow-hidden">
+            <div className="relative">
+              <img
+                src={Pizza}
+                alt="Dish Image"
+                className="object-cover w-full h-80"
+              />
+              {/* <div className="bg-[var(--error)] text-gray-white px-3 py-1 rounded-2xl absolute top-1 right-1">
+                <p>-30%</p>
+              </div> */}
+            </div>
+            <div className="dish-details">
+              <div className="flex justify-between mb-4">
+                <h1 className="text-4xl">Truffle Margherita Pizza</h1>
+                <p className="text-gold-primary text-3xl">$18</p>
+              </div>
+              <p className="mb-8">
+                Hand-pulled noodles tossed in our signature spicy Szechuan sauce
+                with fresh vegetables, tender beef, and aromatic spices. A
+                perfect balance of heat and flavor
+              </p>
+              <div className="food-labels">
+                <div className="flex items-center">
+                  <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
+                    ⏱️
+                  </span>
+                  <p>15-20mins</p>
+                </div>
+                <div className="flex items-center">
+                  <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
+                    🥜
+                  </span>
+                  <p>Peanut Sauce</p>
+                </div>
+                <div className="flex items-center">
+                  <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
+                    🌶️
+                  </span>
+                  <p>Medium Spicy</p>
+                </div>
+              </div>
+              <div className="dietary-tags">
+                <p className="text-[var(--vegan-text)] bg-[var(--vegan-bg)] text-center px-2 py-1 text-[16px] rounded-3xl">
+                  Vegan
+                </p>
+
+                <p className="text-[var(--gluten-free-text)] bg-[var(--gluten-free-bg)] text-center px-2 py-1 text-[16px] rounded-3xl">
+                  Gluton Free
+                </p>
+                <p className="text-[var(--spicy-text)] bg-[var(--spicy-bg)] text-center px-2 py-1 text-[16px] rounded-3xl">
+                  Spicy
+                </p>
+              </div>
+              <div className="flex justify-between items-center mb-8">
+                <p>
+                  <span className="text-gold-primary">⭐⭐⭐⭐⭐</span>(4.89)
+                  128 reviews
+                </p>
+                <p className="text-gold-primary">Chefs signature</p>
+              </div>
+              <div className="flex justify-between">
+                <p className="bg-gold-primary text-gray-white border-2 py-2 px-6 rounded-3xl">
+                  Add to Cart
+                </p>
+                <p className="texrt-gold-primary border-2 border-gold-primary py-2 px-6 rounded-3xl">
+                  Customize
+                </p>
+                <p className="border-2 rounded-full w-12 h-12 flex items-center justify-center">
+                  <i className="fa fa-heart-o"></i>
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
       {/* <div className="offer-services">
         <div className="services-container">
           <article className="dish-container">

@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import Services from "./Services";
 import Reservation from "../components/Reservation";
 import Story from "../components/Story";
+import Guests from "../components/Guests";
 
 function Home() {
   return (
@@ -51,6 +52,7 @@ function Home() {
       <Story />
       <SpecialOffers />
       <Services />
+      <Guests />
       <ChefList />
       <Reservation />
       <Newsletter />

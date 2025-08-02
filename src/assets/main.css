@@ -5,6 +5,10 @@
 /* ======================================= */
 /* ======================================= */
 /* New styles for my Delightful kitchen */
+#main__services {
+  background-color: var(--border-color);
+}
+
 .offer-services {
   display: grid;
   grid-template-columns: repeat(auto-fill, 28rem);
@@ -12,12 +16,13 @@
   gap: 2rem 5rem;
   padding: 3rem;
   padding-top: 0;
-  /* background-color: var(--gold-gradient); */
+  background-color: var(--gold-gradient);
   /* background-color: var(--bg-white); */
 }
 
 .dish-details {
   padding: 1.5rem 1rem 2rem 1rem;
+  background-color: var(--bg-white);
 }
 
 .food-labels {
@@ -39,9 +44,9 @@
 /* ======================================= */
 /* ======================================= */
 
-main {
+/* main {
   background: #e3e0e0;
-}
+} */
 
 .hero-section {
   height: 40rem;

@@ -5,6 +5,18 @@
 /* ======================================= */
 /* ======================================= */
 /* New styles for my Delightful kitchen */
+.hero-section {
+  height: 40rem;
+  background: var(--brown-dark);
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: center; */
+  /* margin-bottom: rem; */
+  position: relative;
+  top: 6.5rem;
+  z-index: 1;
+}
+
 #main__services {
   background-color: var(--border-color);
 }
@@ -47,18 +59,6 @@
 /* main {
   background: #e3e0e0;
 } */
-
-.hero-section {
-  height: 40rem;
-  background: var(--brown-dark);
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-  /* background-position: center; */
-  margin-bottom: rem;
-  position: relative;
-  top: 6.5rem;
-  z-index: 1;
-}
 
 .content-header {
   width: 17rem;
@@ -280,15 +280,15 @@
   margin-top: 0.5rem;
 }
 
-.chefs__container {
+/* .chefs__container {
   width: 40rem;
-}
+} */
 
 .chefs__container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 20rem;
+  /* width: 20rem; */
   margin: 3rem auto;
 }
 
@@ -298,17 +298,17 @@
   font-size: 0.9rem;
 }
 
-.chefs__image img {
+/* .chefs__image img {
   height: 20rem;
   width: 15rem;
-}
+} */
 
 .chef-name {
   margin-bottom: 0.25rem;
 }
 
 .socials {
-  background: #959595;
+  /* background: #959595; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -316,22 +316,22 @@
   padding: 1rem 2rem;
 }
 
-.socials a {
+/* .socials a {
   color: #201e1e;
-}
+} */
 
-.socials i:hover,
+/* .socials i:hover,
 .socials i:active {
   color: #ff1e1e;
   background: #ebe6e6;
   padding: 0.35rem 0.35rem;
   border-radius: 50%;
-}
+} */
 
-.socials img {
+/* .socials img {
   height: 1.5rem;
   width: 1.5rem;
-}
+} */
 
 .chefs__details {
   text-align: center;

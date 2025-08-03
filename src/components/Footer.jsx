@@ -59,17 +59,17 @@ function Footer() {
               <p className="mb-4">
                 Stay updated with our latest dishes and events
               </p>
-              <div className="flex items-center justify-between placeholder:text-wrap">
+              <div className="flex items-center justify-between text-dark-secondary">
                 <input
                   type="email"
                   name="email"
-                  placeholder="eg. delkitchen@gmail.com"
-                  className="px-4 py-3 rounded-lg w-40"
+                  placeholder="eg. delightfulkitchen@gmail.com"
+                  className="text-lg px-2 py-[6px] border-[3px] border-transparent rounded-lg w-40 hover:outline-none focus-visible:border-gold-primary focus-visible:border-[3px] active:outline-none focus-visible:outline-none"
                   required
                 />
                 <button
                   type="submit"
-                  className="bg-gold-primary text-gray-white px-6 py-3 rounded-lg"
+                  className="bg-gold-primary text-gray-white px-6 py-2.5 rounded-lg"
                 >
                   <i className="fa fa-envelope mr-2" aria-hidden="true"></i>
                   Subscribe

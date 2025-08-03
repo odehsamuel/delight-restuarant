@@ -6,30 +6,57 @@ function ChefList() {
   return (
     <div>
       <section id="main__chefs">
-        <h1 className="text-center font-bold text-2xl mt-6 text-slate-800">Meet Our Chefs</h1>
+        <h1 className="text-center font-bold text-2xl mt-6 text-slate-800">
+          Meet Our Culinary Masters
+        </h1>
         <div className="chefs">
-          <div className="chefs__container">
-            <div className="chefs__image">
+          <div className="w-[40rem] flex justify-between">
+            <div className="w-1/3">
               <img src={Chef1} alt="chef-1" />
-              <div className="socials">
-                <a href="#">
-                  <i className="fa fa-facebook fa-lg p-2" aria-hidden="true"></i>
+              <div className="bg-gold-primary text-gray-white flex justify-center items-center py-4">
+                <a
+                  href="#"
+                  className="hover:bg-gray-white rounded-full w-8 h-8 flex items-center justify-center hover:text-gold-primary"
+                >
+                  <i
+                    className="fa fa-facebook fa-lg p-2"
+                    aria-hidden="true"
+                  ></i>
                 </a>
-                <a href="#">
-                  <i className="fa fa-whatsapp fa-lg p-2" aria-hidden="true"></i>
+
+                <a
+                  href="#"
+                  className="hover:bg-gray-white rounded-full w-8 h-8 flex items-center justify-center hover:text-gold-primary"
+                >
+                  <i
+                    className="fa fa-whatsapp fa-lg p-2"
+                    aria-hidden="true"
+                  ></i>
                 </a>
-                <a href="#">
-                  <i className="fa fa-instagram fa-lg p-2" aria-hidden="true"></i>
+                <a
+                  href="#"
+                  className="hover:bg-gray-white rounded-full w-8 h-8 flex items-center justify-center hover:text-gold-primary"
+                >
+                  <i
+                    className="fa fa-instagram fa-lg p-2"
+                    aria-hidden="true"
+                  ></i>
                 </a>
-                <a href="#">
-                  <i className="fa fa-linkedin fa-lg p-2" aria-hidden="true"></i>
+                <a
+                  href="#"
+                  className="hover:bg-gray-white rounded-full w-8 h-8 flex items-center justify-center hover:text-gold-primary"
+                >
+                  <i
+                    className="fa fa-linkedin fa-lg p-2"
+                    aria-hidden="true"
+                  ></i>
                 </a>
               </div>
             </div>
             <div className="chefs__details">
-              <h1 className="chef-name">Schwarts Michael</h1>
-              <h3 className="chef-position">Chief Chef</h3>
-              <p className="chef-description">
+              <h1 className="text-3xl">Schwarts Michael</h1>
+              <h3 className="text-gold-primary italic">Chief Chef</h3>
+              <p className="text-wrap">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Repellendus nobis perferendis ratione, temporibus quos
                 blanditiis ipsam consectetur veniam in laboriosam eveniet ex
@@ -46,16 +73,28 @@ function ChefList() {
               <img src={Chef2} alt="chef-2" />
               <div className="socials">
                 <a href="#">
-                  <i className="fa fa-facebook fa-lg p-2" aria-hidden="true"></i>
+                  <i
+                    className="fa fa-facebook fa-lg p-2"
+                    aria-hidden="true"
+                  ></i>
                 </a>
                 <a href="#">
-                  <i className="fa fa-whatsapp fa-lg p-2" aria-hidden="true"></i>
+                  <i
+                    className="fa fa-whatsapp fa-lg p-2"
+                    aria-hidden="true"
+                  ></i>
                 </a>
                 <a href="#">
-                  <i className="fa fa-instagram fa-lg p-2" aria-hidden="true"></i>
+                  <i
+                    className="fa fa-instagram fa-lg p-2"
+                    aria-hidden="true"
+                  ></i>
                 </a>
                 <a href="#">
-                  <i className="fa fa-linkedin fa-lg p-2" aria-hidden="true"></i>
+                  <i
+                    className="fa fa-linkedin fa-lg p-2"
+                    aria-hidden="true"
+                  ></i>
                 </a>
               </div>
             </div>
@@ -79,16 +118,28 @@ function ChefList() {
               <img src={Chef3} alt="chef-3" />
               <div className="socials">
                 <a href="#">
-                  <i className="fa fa-facebook fa-lg p-2" aria-hidden="true"></i>
+                  <i
+                    className="fa fa-facebook fa-lg p-2"
+                    aria-hidden="true"
+                  ></i>
                 </a>
                 <a href="#">
-                  <i className="fa fa-whatsapp fa-lg p-2" aria-hidden="true"></i>
+                  <i
+                    className="fa fa-whatsapp fa-lg p-2"
+                    aria-hidden="true"
+                  ></i>
                 </a>
                 <a href="#">
-                  <i className="fa fa-instagram fa-lg p-2" aria-hidden="true"></i>
+                  <i
+                    className="fa fa-instagram fa-lg p-2"
+                    aria-hidden="true"
+                  ></i>
                 </a>
                 <a href="#">
-                  <i className="fa fa-linkedin fa-lg p-2" aria-hidden="true"></i>
+                  <i
+                    className="fa fa-linkedin fa-lg p-2"
+                    aria-hidden="true"
+                  ></i>
                 </a>
               </div>
             </div>

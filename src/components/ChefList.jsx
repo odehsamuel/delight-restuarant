@@ -5,11 +5,11 @@ import Chef3 from "../assets/images/chef.jpg";
 function ChefList() {
   return (
     <div>
-      <section id="main__chefs">
-        <h1 className="text-center font-bold text-2xl mt-6 text-slate-800">
+      <section>
+        <h1 className="text-center font-bold text-4xl py-20 text-slate-800">
           Meet Our Culinary Masters
         </h1>
-        <div className="chefs">
+        <div>
           <div className="w-[40rem] flex justify-between">
             <div className="w-1/3">
               <img src={Chef1} alt="chef-1" />

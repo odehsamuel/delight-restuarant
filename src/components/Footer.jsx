@@ -3,7 +3,10 @@ import React from "react";
 function Footer() {
   return (
     <footer>
-      <div className="bg-dark-secondary py-12 px-8">
+      <div
+        className="bg-dark-secondary pb-6 px-8"
+        style={{ paddingTop: "4rem" }}
+      >
         <div className="flex md:flex-row flex-col gap-4 md:justify-evenly">
           <div className="max-w-[20rem] text-gray-white">
             <h1 className="text-gold-primary text-3xl mb-8">Contact Info</h1>
@@ -105,8 +108,10 @@ function Footer() {
           ></i>
         </a>
       </div>
-      <p className="text-center text-gray-light bg-dark-secondary pb-4">
-        @ {new Date().getFullYear()} Delightful Kitchen. All rights reserved.
+      <hr className="border-[var(--dark-primary)]" />
+      <p className="text-center text-gray-light bg-dark-secondary py-4">
+        &copy; {new Date().getFullYear()} Delightful Kitchen. All rights
+        reserved.
       </p>
     </footer>
   );

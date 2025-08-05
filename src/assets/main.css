@@ -6,28 +6,40 @@
 /* ======================================= */
 /* New styles for my Delightful kitchen */
 .hero-section {
-  height: 40rem;
-  background: var(--brown-dark);
+  height: 45rem;
+  background: var(--hero-bg);
   /* background-repeat: no-repeat; */
   /* background-size: cover; */
   /* background-position: center; */
   /* margin-bottom: rem; */
-  position: relative;
-  top: 6.5rem;
+  /* position: relative;
+  top: 6.5rem; */
+  padding-top: 6.5rem;
   z-index: 1;
 }
 
-#main__services {
+/* .page-header { */
+/* height: 40rem; */
+/* padding: 3rem 0; */
+/* padding-top: 20rem; */
+/* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), */
+/* url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400"><rect fill="%23654321" width="1200" height="400"/><circle fill="%23d4af37" cx="300" cy="150" r="40" opacity="0.4"/><circle fill="%238b4513" cx="900" cy="100" r="60" opacity="0.3"/></svg>'); */
+/* background-size: contain;
+  color: white;
+  text-align: center; */
+/* } */
+
+/* #main__services {
   background-color: var(--border-color);
-}
+} */
 
 .offer-services {
   display: grid;
   grid-template-columns: repeat(auto-fill, 28rem);
   justify-content: center;
   gap: 2rem 5rem;
-  padding: 3rem;
-  padding-top: 0;
+  /* padding: 3rem; */
+  padding-bottom: 7rem;
   background-color: var(--gold-gradient);
   /* background-color: var(--bg-white); */
 }
@@ -270,9 +282,9 @@
   font-weight: bold;
 }
 
-#main__chefs .chef-title {
+/* #main__chefs .chef-title {
   text-align: center;
-}
+} */
 
 .chef-description,
 .chef-name {

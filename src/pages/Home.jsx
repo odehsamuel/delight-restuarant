@@ -27,7 +27,7 @@ function Home() {
         </div> */}
         <div className="hero-section">
           <div className="text-gray-white mx-auto py-[4rem] w-[42rem]">
-            <p className="bg-[var(--brown-warm)] rounded-full h-24 w-24"></p>
+            <p className="bg-[var(--circle-1)] rounded-full h-24 w-24"></p>
             <div className="text-center w-[36rem] mx-auto ml-20">
               <h3 className="text-5xl font-bold">
                 Welcome to Culinary Excellence
@@ -45,7 +45,7 @@ function Home() {
                 </span>
               </p>
             </div>
-            <p className="bg-[var(--brown-warm)] rounded-full h-24 w-24 ml-[40rem]"></p>
+            <p className="bg-[var(--circle-2)] rounded-full h-24 w-24 ml-[40rem]"></p>
           </div>
         </div>
       </section>

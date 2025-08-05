@@ -3,8 +3,8 @@ import ChineseRecipe from "../assets/images/b37299c474375bdf7c979d11caaa8917.jpg
 
 function Story() {
   return (
-    <div className="bg-gray-border py-36">
-      <div className="bg-gray-white rounded-2xl shadow-lg px-20 py-20 w-3/4 mx-auto mt-20">
+    <div className="bg-gray-border py-20">
+      <div className="bg-gray-white rounded-2xl shadow-lg px-20 py-20 w-3/4 mx-auto">
         <div className="text-center pb-12">
           <h3 className="text-4xl font-bold">Our Story</h3>
           <p className="mx-auto w-16 h-[3px] bg-gold-primary mt-4"></p>

@@ -18,13 +18,13 @@ function About() {
           <p className="bg-[var(--circle-2)] rounded-full h-24 w-24 absolute right-0 -top-6"></p>
         </div>
       </div>
-      <div className="bg-gray-border py-16">
+      <section className="bg-gray-border py-16">
         <div className="bg-gray-white container w-3/4 mx-auto rounded-xl shadow-lg px-10 pb-20">
           <div className="text-center py-10">
             <h1 className="text-4xl font-semibold">
               A Legacy of Culinary Excellence
             </h1>
-            <p className="mx-auto w-16 h-[3px] bg-gold-primary mt-4"></p>
+            <hr className="mx-auto w-16 border-t-[3px] border-gold-primary mt-4"></hr>
           </div>
           <div className="flex justify-between items-center">
             <div className="w-1/2 space-y-8">
@@ -50,15 +50,15 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="bg-gray-border pb-20">
+      </section>
+      <section className="bg-gray-border pb-16">
         <div className="text-center py-10">
           <h1 className="text-4xl font-semibold">Our Values</h1>
-          <p className="mx-auto w-16 h-[3px] bg-gold-primary mt-4"></p>
+          <hr className="mx-auto w-16 border-t-[3px] border-gold-primary mt-4"></hr>
         </div>
 
         <div className="grid grid-cols-3 gap-x-14 gap-y-8 justify-center px-52">
-          <div className="container space-y-8 bg-gray-white text-center shadow-lg rounded-lg p-10">
+          <div className="container space-y-8 bg-gray-white text-center shadow-lg rounded-xl p-10">
             <div className="rounded-full bg-gold-primary w-20 h-20 mx-auto flex items-center justify-center">
               ⭐
             </div>
@@ -105,7 +105,229 @@ function About() {
             </p>
           </div>
         </div>
-      </div>
+      </section>
+      <section className="bg-gray-border pb-16">
+        <h1 className="text-4xl font-semibold text-center py-16">
+          Meet Our Culinary Team
+        </h1>
+        <div className="grid grid-cols-3 gap-x-14 gap-y-8 justify-center px-64">
+          <div className="container space-y-8 bg-gray-white text-center shadow-lg rounded-lg p-10">
+            <div className="text-gray-white text-3xl font-semibold rounded-full bg-gold-primary w-20 h-20 mx-auto flex items-center justify-center">
+              MB
+            </div>
+            <h3 className="text-xl font-bold">Marcus Beaumont</h3>
+            <p className="text-gold-primary italic">
+              Founder and Executive Chef
+            </p>
+            <p className="text-lg text-dark-primary">
+              With over 25 years of culinary experiences, Chef Marcus has
+              trained in Michelin-strarrred restaurants across France and brings
+              his expertise in classical French cuisine with modern
+              interpretations to Delightful Kitchen.
+            </p>
+            <div className="bg-gray-border space-y-4 text-center py-6 px-16 rounded-lg">
+              <h3 className="text-gold-primary text-xl font-semibold">
+                Specialties
+              </h3>
+              <p>
+                French Classical Cuisine, Molecular Gastronomy, Wine Pairing
+              </p>
+            </div>
+          </div>
+
+          <div className="container space-y-8 bg-gray-white text-center shadow-lg rounded-lg p-10">
+            <div className="text-gray-white text-3xl font-semibold rounded-full bg-gold-primary w-20 h-20 mx-auto flex items-center justify-center">
+              SM
+            </div>
+            <h3 className="text-xl font-bold">Sophia Martinez</h3>
+            <p className="text-gold-primary italic">Head Pastry Chef</p>
+            <p className="text-lg text-dark-primary">
+              Award-winning pastry chef with a backgrround in fine European
+              partisseries. Sophia creates stunning desserts that are both
+              visually spectacular and incredibly delicious, earning recognition
+              from culnary publications worldwide.
+            </p>
+            <div className="bg-gray-border space-y-4 text-center py-6 px-16 rounded-lg">
+              <h3 className="text-gold-primary text-xl font-semibold">
+                Specialties
+              </h3>
+              <p>French Pastries, Chocolate Wrrork, Artistic Plating</p>
+            </div>
+          </div>
+
+          <div className="container space-y-8 bg-gray-white text-center shadow-lg rounded-lg p-10">
+            <p className="text-gray-white text-3xl font-semibold rounded-full bg-gold-primary w-20 h-20 mx-auto flex items-center justify-center">
+              JP
+            </p>
+            <h3 className="text-xl font-bold">James Thompson</h3>
+            <p className="text-gold-primary italic">Sous Chef</p>
+            <p className="text-lg text-dark-primary">
+              A rising star in the culinary world, James brings innovation and
+              precision to our Kitchen. His expertise in seasonal ingredients
+              and farm-to-table cooking helps create our ever-evolving seasonal
+              menu.
+            </p>
+            <div className="bg-gray-border space-y-4 text-center py-6 px-16 rounded-lg">
+              <h3 className="text-gold-primary text-xl font-semibold">
+                Specialties
+              </h3>
+              <p>Seasonal Cuisine, Seafood, Modern Techniques</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="bg-gray-border py-16">
+        <div className="bg-gray-white container w-3/4 mx-auto rounded-xl shadow-lg pb-20 py-12 px-16">
+          <div className="text-center py-8">
+            <h1 className="text-4xl font-semibold">Our Journey</h1>
+            <hr className="mx-auto w-16 border-t-[3px] border-gold-primary mt-3"></hr>
+          </div>
+          <ul className="space-y-10">
+            {/* <hr className="border-gold-primary border-4 w-16" /> */}
+            <div className="flex items-center">
+              <li className="rounded-lg bg-gray-border py-6 px-4 w-2/5 space-y-2">
+                <h3 className="text-gold-primary text-xl font-semibold">
+                  The Beginning
+                </h3>
+                <p>
+                  Delightful Kitchen opens its doors as a 30-seat restaurant
+                  with a vision to provide exceptional fine dining experiences.
+                </p>
+              </li>
+              <p className="bg-gold-primary text-gray-white text-center py-2 px-4 w-20 rounded-3xl relative -right-10">
+                1998
+              </p>
+            </div>
+            <div className="flex items-center justify-end">
+              <p className="bg-gold-primary text-gray-white text-center py-2 px-4 w-20 rounded-3xl relative -left-10">
+                2003
+              </p>
+              <li className="rounded-lg bg-gray-border py-6 px-4 w-2/5 space-y-2">
+                <h3 className="text-gold-primary text-xl font-semibold">
+                  First Recognition
+                </h3>
+                <p>
+                  Received our first James Beard Award nomination and expanded
+                  to accommodate 60 guests.
+                </p>
+              </li>
+            </div>
+            <div className="clear-both border-r-4 border-gold-primary"></div>
+            <div className="flex items-center">
+              <li className="rounded-lg bg-gray-border py-6 px-4 w-2/5 space-y-2 ">
+                <h3 className="text-gold-primary text-xl font-semibold">
+                  Micheline Star
+                </h3>
+                <p>
+                  Earned our first Michelin Star, establishing Delightful
+                  Kitchen as one of the city's premier dining destinations.
+                </p>
+              </li>
+              <p className="bg-gold-primary text-gray-white text-center py-2 px-4 w-20 rounded-3xl relative -right-10">
+                2008
+              </p>
+            </div>
+            <div className="flex items-center justify-end">
+              <p className="bg-gold-primary text-gray-white text-center py-2 px-4 w-20 rounded-3xl relative -left-10">
+                2015
+              </p>
+              <li className="rounded-lg bg-gray-border py-6 px-4 w-2/5 space-y-2">
+                <h3 className="text-gold-primary text-xl font-semibold">
+                  Sustainability Initiative
+                </h3>
+                <p>
+                  Launched our farm-to-table program, partnering with local
+                  organic farms and implementing zero-waste practices.
+                </p>
+              </li>
+            </div>
+            <div className="clear-both"></div>
+            <div className="flex items-center">
+              <li className="rounded-lg bg-gray-border py-6 px-4 w-2/5 space-y-2">
+                <h3 className="text-gold-primary text-xl font-semibold">
+                  Innovative During Challenge
+                </h3>
+                <p>
+                  Adapted to global challenges by launching premium meal krits
+                  and virtual cooking classes, maintaining our connection with
+                  guests.
+                </p>
+              </li>
+              <p className="bg-gold-primary text-gray-white text-center py-2 px-4 w-20 rounded-3xl relative -right-10">
+                2020
+              </p>
+            </div>
+            <div className="flex items-center justify-end">
+              <p className="bg-gold-primary text-gray-white text-center py-2 px-4 w-20 rounded-3xl relative -left-10">
+                2023
+              </p>
+              <li className="rounded-lg bg-gray-border py-6 px-4 w-2/5 space-y-2">
+                <h3 className="text-gold-primary text-xl font-semibold">
+                  25th Anniversary
+                </h3>
+                <p>
+                  Celebrated 25 years of culinary excellence with a complete
+                  restaurant renovation and expanded wine cellar
+                </p>
+              </li>
+            </div>
+            <div className="clear-both"></div>
+          </ul>
+        </div>
+      </section>
+      <section className="bg-gray-border pb-36">
+        <div className="bg-dark-primary rounded-2xl w-3/4 mx-auto py-16">
+          <h1 className="text-gray-white text-center text-4xl pt-10">
+            Awards & Recognition
+          </h1>
+          <hr className="mx-auto w-16 border-t-[3px] border-gold-primary my-4"></hr>
+          <div className="grid grid-cols-3 gap-x-8 justify-center gap-y-8 px-10">
+            <div className="container space-y-4 bg-gray-medium text-center shadow-lg rounded-xl py-8">
+              <div className="rounded-full bg-gold-primary w-20 h-20 mx-auto flex items-center justify-center">
+                ⭐
+              </div>
+              <h3 className="text-xl font-bold text-gray-white">
+                Michelin Star
+              </h3>
+              <p className="text-sm text-gold-primary">2008 - present</p>
+            </div>
+
+            <div className="container space-y-4 bg-gray-medium text-center shadow-lg rounded-xl py-8">
+              <div className="rounded-full bg-gold-primary w-20 h-20 mx-auto flex items-center justify-center">
+                ⏱️
+              </div>
+              <h3 className="text-xl font-bold text-gray-white">
+                James Beard Award
+              </h3>
+              <p className="text-sm text-gold-primary">
+                Outstanding Restaurant 2019
+              </p>
+            </div>
+
+            <div className="container space-y-4 bg-gray-medium text-center shadow-lg rounded-xl py-8">
+              <div className="rounded-full bg-gold-primary w-20 h-20 mx-auto flex items-center justify-center">
+                🥜
+              </div>
+              <h3 className="text-xl font-bold text-gray-white">
+                Wine Spectator
+              </h3>
+              <p className="text-sm text-gold-primary">
+                Award of Excellence 2020
+              </p>
+            </div>
+
+            <div className="container space-y-4 bg-gray-medium text-center shadow-lg rounded-xl py-8">
+              <div className="rounded-full bg-gold-primary w-20 h-20 mx-auto flex items-center justify-center">
+                ⭐
+              </div>
+              <h3 className="text-xl font-bold text-gray-white">
+                AAA five Diamond
+              </h3>
+              <p className="text-sm text-gold-primary">2016 - present</p>
+            </div>
+          </div>
+        </div>
+      </section>
       <Footer />
     </>
   );

@@ -7,7 +7,7 @@ function Story() {
       <div className="bg-gray-white rounded-2xl shadow-lg px-20 py-20 w-3/4 mx-auto">
         <div className="text-center pb-12">
           <h3 className="text-4xl font-bold">Our Story</h3>
-          <p className="mx-auto w-16 h-[3px] bg-gold-primary mt-4"></p>
+          <hr className="mx-auto w-16 border-t-[3px] border-gold-primary mt-3"></hr>
         </div>
         <div className="flex justify-between pb-24">
           <div className="rest-story w-1/2">

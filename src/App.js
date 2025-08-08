@@ -2,9 +2,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Chefs from "./pages/Chefs";
-import Reviews from "./pages/Reviews";
 import Services from "./pages/Services";
 import Chef from "./pages/Chef";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Route path="/chefs" element={<Chefs />} />
         <Route path="/chefs/:id" element={<Chef />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/reviews" element={<Reviews />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );

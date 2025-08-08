@@ -33,7 +33,7 @@ function About() {
                 Founded in 1998 by renowed chef Marcus Beaumont, Delightful
                 Kitchen began as a dream to create an extraordinary dining
                 destination where culinary artistry meets warm hospitality. What
-                started as a modest 30-sear restaurant has evolved into one of
+                started as a modest 30-seat restaurant has evolved into one of
                 the city's most celebrated fine dining establishments
               </p>
               <p>

@@ -3,7 +3,7 @@ import ChefList from "../components/ChefList";
 import Newsletter from "../components/Newsletter";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import Services from "./Services";
+import Services from "./Menu";
 import Reservation from "../components/Reservation";
 import Story from "../components/Story";
 import Guests from "../components/Guests";
@@ -51,7 +51,7 @@ function Home() {
       </section>
       <Story />
       <SpecialOffers />
-      <Services />
+      {/* <Services /> */}
       <Guests />
       <ChefList />
       <Reservation />

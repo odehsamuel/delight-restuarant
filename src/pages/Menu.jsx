@@ -14,7 +14,7 @@ function Menu() {
     <>
       <NavBar />
       <section className="bg-gray-border py-24">
-        <div className="w-3/4 mx-auto py-10 px-12">
+        <div className="w-3/4 mx-auto py-10">
           <div className="text-center rounded-t-xl text-gray-white space-y-2 bg-dark-primary py-16 px-60">
             <h3 className="text-4xl font-medium">Reserve Your table</h3>
             <p>
@@ -35,7 +35,7 @@ function Menu() {
                   </label>
                   <input
                     type="text"
-                    className="h-12 rounded-xl border-gray-border bg-gray border hover:shadow-lg hover:border-gold-primary py-1.5 px-2 outline-none"
+                    className="h-12 rounded-xl border-gray-border bg-gray border hover:shadow-lg hover:border-gold-primary hover:bg-[var(--gold-bg)] active:bg-[var(--gold-bg)] py-1.5 px-2 outline-none"
                   />
                 </li>
                 <li>
@@ -44,7 +44,7 @@ function Menu() {
                   </label>
                   <input
                     type="text"
-                    className="h-12 rounded-xl border-gray-border border hover:shadow-lg hover:border-gold-primary py-1.5 px-2 outline-none"
+                    className="h-12 rounded-xl border-gray-border border hover:shadow-lg hover:border-gold-primary hover:bg-[var(--gold-bg)] active:bg-[var(--gold-bg)] py-1.5 px-2 outline-none"
                   />
                 </li>
                 <li>
@@ -53,7 +53,7 @@ function Menu() {
                   </label>
                   <input
                     type="email"
-                    className="h-12 rounded-xl border-gray-border border hover:shadow-lg hover:border-gold-primary py-1.5 px-2 outline-none"
+                    className="h-12 rounded-xl border-gray-border border hover:shadow-lg hover:border-gold-primary hover:bg-[var(--gold-bg)] active:bg-[var(--gold-bg)] py-1.5 px-2 outline-none"
                   />
                 </li>
                 <li>
@@ -62,7 +62,7 @@ function Menu() {
                   </label>
                   <input
                     type="text"
-                    className="h-12 rounded-xl border-gray-border border hover:shadow-lg hover:border-gold-primary py-1.5 px-2 outline-none"
+                    className="h-12 rounded-xl border-gray-border border hover:shadow-lg hover:border-gold-primary hover:bg-[var(--gold-bg)] active:bg-[var(--gold-bg)] py-1.5 px-2 outline-none"
                   />
                 </li>
                 <li>
@@ -71,7 +71,7 @@ function Menu() {
                   </label>
                   <input
                     type="date"
-                    className="h-12 rounded-xl border-gray-border border hover:shadow-lg hover:border-gold-primary py-1.5 px-2 outline-none"
+                    className="h-12 rounded-xl border-gray-border border hover:shadow-lg hover:border-gold-primary hover:bg-[var(--gold-bg)] active:bg-[var(--gold-bg)] py-1.5 px-2 outline-none"
                   />
                 </li>
                 <li>
@@ -81,9 +81,9 @@ function Menu() {
                   <select
                     name="guests"
                     id=""
-                    className="h-12 w-full rounded-xl border-gray-border border hover:shadow-lg hover:border-gold-primary py-1.5 px-2 outline-none"
+                    className="h-12 w-full rounded-xl border-gray-border border hover:shadow-lg hover:border-gold-primary hover:bg-[var(--gold-bg)] active:bg-[var(--gold-bg)] py-1.5 px-2 outline-none"
                   >
-                    <option value="">Select Guest</option>
+                    <option value="">Select Guests</option>
                     <option value="">1 Guest</option>
                     <option value="">2 Guests</option>
                     <option value="">3 Guests</option>
@@ -91,18 +91,56 @@ function Menu() {
                     <option value="">5 Guests</option>
                     <option value="">6 Guests</option>
                     <option value="">7 Guests</option>
-                    <option value="">8 Guests</option>
+                    <option value="">8+ Guests</option>
                   </select>
                 </li>
                 <li className="col-span-2">
                   <h3 className="font-medium text-sm pt-4">
                     Special Occasions & Dietarry Requirements
                   </h3>
+                  <ul className="grid grid-cols-4 gap-4 pt-4">
+                    <li className="rounded-lg p-1.5 text-center text-gray-light hover:border bg-[var(--border-bg)] hover:border-gold-primary hover:bg-[var(--gold-bg)]">
+                      5:00PM
+                    </li>
+                    <li className="rounded-lg p-1.5 text-center border hover:border-gold-primary hover:bg-[var(--gold-bg)]">
+                      5:30PM
+                    </li>
+                    <li className="rounded-lg p-1.5 text-center border hover:border-gold-primary hover:bg-[var(--gold-bg)]">
+                      6:00PM
+                    </li>
+                    <li className="rounded-lg p-1.5 text-center text-gray-light hover:border bg-[var(--border-bg)] hover:border-gold-primary hover:bg-[var(--gold-bg)]">
+                      6:30PM
+                    </li>
+                    <li className="rounded-lg p-1.5 text-center text-gray-white bg-gold-primary border hover:border-gold-primary hover:bg-[var(--gold-bg)]">
+                      7:00PM
+                    </li>
+                    <li className="rounded-lg p-1.5 text-center border hover:border-gold-primary hover:bg-[var(--gold-bg)]">
+                      7:30PM
+                    </li>
+                    <li className="rounded-lg p-1.5 text-center border hover:border-gold-primary hover:bg-[var(--gold-bg)]">
+                      8:00PM
+                    </li>
+                    <li className="rounded-lg p-1.5 text-center text-gray-light hover:border bg-[var(--border-bg)] hover:border-gold-primary hover:bg-[var(--gold-bg)]">
+                      8:30PM
+                    </li>
+                    <li className="rounded-lg p-1.5 text-center border hover:border-gold-primary hover:bg-[var(--gold-bg)]">
+                      9:00PM
+                    </li>
+                    <li className="rounded-lg p-1.5 text-center text-gray-light hover:border bg-[var(--border-bg)] hover:border-gold-primary hover:bg-[var(--gold-bg)]">
+                      9:30PM
+                    </li>
+                  </ul>
+                </li>
+                <li className="col-span-2">
+                  <h3 className="font-medium text-sm pt-4">
+                    Special Occasions & Dietarry Requirements
+                  </h3>
+
                   <div className="grid grid-cols-2">
                     <div className="flex items-center">
                       <input
                         type="checkbox"
-                        className="w-[14px] mr-2 hover:shadow-lg"
+                        className="w-[14px] mr-2 hover:shadow-lg accent-gold-primary"
                       />
                       <label htmlFor="" className="m-0">
                         Birthday Celebration
@@ -111,7 +149,7 @@ function Menu() {
                     <div className="flex items-center">
                       <input
                         type="checkbox"
-                        className="w-[14px] mr-2 hover:shadow-lg"
+                        className="w-[14px] mr-2 hover:shadow-lg accent-gold-primary"
                       />
                       <label htmlFor="" className="m-0">
                         Vegetarian Options
@@ -120,7 +158,7 @@ function Menu() {
                     <div className="flex items-center">
                       <input
                         type="checkbox"
-                        className="w-[14px] mr-2 hover:shadow-lg"
+                        className="w-[14px] mr-2 hover:shadow-lg accent-gold-primary"
                       />
                       <label htmlFor="" className="m-0">
                         Gluten-Free
@@ -129,7 +167,7 @@ function Menu() {
                     <div className="flex items-center">
                       <input
                         type="checkbox"
-                        className="w-[14px] mr-2 hover:shadow-lg"
+                        className="w-[14px] mr-2 hover:shadow-lg accent-gold-primary"
                       />
                       <label htmlFor="" className="m-0">
                         Anniversary
@@ -138,7 +176,7 @@ function Menu() {
                     <div className="flex items-center">
                       <input
                         type="checkbox"
-                        className="w-[14px] mr-2 hover:shadow-lg"
+                        className="w-[14px] mr-2 hover:shadow-lg accent-gold-primary"
                       />
                       <label htmlFor="" className="m-0">
                         Vegan options
@@ -147,7 +185,7 @@ function Menu() {
                     <div className="flex items-center justify-center">
                       <input
                         type="checkbox"
-                        className="w-[14px] mr-2 hover:shadow-lg"
+                        className="w-[14px] mr-2 hover:shadow-lg accent-gold-primary"
                       />
                       <label htmlFor="" className="m-0">
                         Wheelchair Access
@@ -179,21 +217,21 @@ function Menu() {
                 </p>
               </ul>
             </div>
-            <div className="bg-gold-primary w-1/2 p-8 text-gray-white rounded-br-xl">
-              <h3 className="text-2xl font-medium pb-4">
+            <div className="bg-gold-primary w-1/2 py-56 px-14 text-gray-white rounded-br-xl">
+              <h3 className="text-4xl font-medium pb-4">
                 Reservation Information
               </h3>
               <ul className=" space-y-4">
-                <li className="flex items-center space-x-2">
-                  <div className="flex items-center justify-center w-6 h-6 rounded-full bg-gray-border p-4"></div>
+                <li className="flex items-center space-x-4">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[var(--border-bg)] p-4"></div>
                   <div>
                     <h3 className="font-medium">Call Us Direcrtly</h3>
                     <p>(+234)68 6244 7879</p>
                     <p>Available 24/7 for reservations</p>
                   </div>
                 </li>
-                <li className="flex items-center space-x-2">
-                  <div className="flex items-center justify-center w-6 h-6 rounded-full bg-gray-border p-4"></div>
+                <li className="flex items-center space-x-4">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[var(--border-bg)] p-4"></div>
                   <div>
                     <h3 className="font-medium">Restaurant Hours</h3>
                     <p>Mon - Thur: 5:00PM - 10:00PM</p>
@@ -201,24 +239,24 @@ function Menu() {
                     <p>Sunday: 4:00PM - 9:00PM</p>
                   </div>
                 </li>
-                <li className="flex items-center space-x-2">
-                  <div className="flex items-center justify-center w-6 h-6 rounded-full bg-gray-border p-4"></div>
+                <li className="flex items-center space-x-4">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[var(--border-bg)] p-4"></div>
                   <div>
                     <h3 className="font-medium">Special Occasions</h3>
                     <p>Complimentary dessert for birthdays</p>
                     <p>Anniversary whine pairings available</p>
                   </div>
                 </li>
-                <li className="flex items-center space-x-2">
-                  <div className="flex items-center justify-center w-6 h-6 rounded-full bg-gray-border p-4"></div>
+                <li className="flex items-center space-x-4">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[var(--border-bg)] p-4"></div>
                   <div>
                     <h3 className="font-medium">Dress Code</h3>
                     <p>Business casual to formal</p>
                     <p>Jackets recommended for dinner</p>
                   </div>
                 </li>
-                <li className="flex items-center space-x-2">
-                  <div className="flex items-center justify-center w-6 h-6 rounded-full bg-gray-border p-4"></div>
+                <li className="flex items-center space-x-4">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[var(--border-bg)] p-4"></div>
                   <div>
                     <h3 className="font-medium">Parking & Location</h3>
                     <p>Valet parking available</p>
@@ -229,7 +267,26 @@ function Menu() {
             </div>
           </div>
         </div>
-        <div></div>
+        <div className="w-3/4 mx-auto bg-gray-white rounded-xl py-8 text-center">
+          <h3 className="font-medium text-xl pb-2">
+            Need a Quick Reservation?
+          </h3>
+          <p>Popular time slots for today and tomorrow</p>
+          <ul className="flex justify-center items-center text-sm text-gold-primary space-x-4">
+            <li className="rounded-2xl border border-gold-primary py-1 px-3">
+              Tonight 7:00 PM
+            </li>
+            <li className="rounded-2xl border border-gold-primary py-1 px-3">
+              Tonight 8:00 PM
+            </li>
+            <li className="rounded-2xl border border-gold-primary py-1 px-3">
+              Tonight 8:30 PM
+            </li>
+            <li className="rounded-2xl border border-gold-primary py-1 px-3">
+              Tonight 9:00 PM
+            </li>
+          </ul>
+        </div>
       </section>
       <section id="newsletter" className="px-12 py-24">
         <h1 className="text-center text-4xl text-slate-500 pb-4">Our Menu</h1>

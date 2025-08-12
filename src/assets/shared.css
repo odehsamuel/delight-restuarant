@@ -12,6 +12,7 @@
 
   /* Primary Brand Colors */
   --gold-primary: #d4af37;
+  --gold-bg: #fffaea6c;
   --gold-secondary: #b8941f;
 
   /* Neutral Colors */
@@ -25,6 +26,7 @@
   --off-white: #fafafa;
   --bg-white: #f8f9fa;
   --border-color: #e9ecef;
+  --border-bg: #e9ecef75;
 
   /* Food Category Colors */
   --brown-warm: #8b4513;

@@ -1,5 +1,6 @@
 import menu from "../assets/images/menu.png";
 import flower from "../assets/images/flower.png";
+import { Link } from "react-router-dom";
 
 function Reservation() {
   return (
@@ -63,18 +64,21 @@ function Reservation() {
     //     </form>
     //   </div>
     // </div>
-    <div className="bg-gray-border py-32">
-      <div className="bg-dark-secondary w-3/6 rounded-2xl px-10 py-8 mx-auto text-center">
+    <div id="reserve-table" className="bg-gray-border py-32">
+      <div className="bg-dark-secondary w-3/6 rounded-2xl px-10 pt-8 pb-16 mx-auto text-center">
         <h2 className="text-4xl text-gray-white my-6 font-semibold">
           Reserve Your Table Today!
         </h2>
-        <p className="text-gray-white text-lg">
+        <p className="text-gray-white text-lg mb-8">
           Experience culinary excellence in an intimate setting. Book your table
           for an unforgettable evening.
         </p>
-        <button className="bg-gold-primary text-gray-white rounded-3xl px-6 py-2 my-8 text-lg">
+        <Link
+          to="/menu"
+          className="bg-gold-primary text-gray-white rounded-3xl px-6 py-2 text-lg"
+        >
           Make a Reservation
-        </button>
+        </Link>
       </div>
     </div>
   );

@@ -95,7 +95,7 @@ function Menu() {
                   </select>
                 </li>
                 <li className="col-span-2">
-                  <h3 className="font-medium text-sm pt-4">
+                  <h3 className="font-medium text-base pt-4">
                     Special Occasions & Dietarry Requirements
                   </h3>
                   <ul className="grid grid-cols-4 gap-4 pt-4">
@@ -132,7 +132,7 @@ function Menu() {
                   </ul>
                 </li>
                 <li className="col-span-2">
-                  <h3 className="font-medium text-sm pt-4">
+                  <h3 className="font-medium text-base pt-4">
                     Special Occasions & Dietarry Requirements
                   </h3>
 
@@ -223,7 +223,9 @@ function Menu() {
               </h3>
               <ul className=" space-y-4">
                 <li className="flex items-center space-x-4">
-                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[var(--border-bg)] p-4"></div>
+                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[var(--border-bg)] p-4">
+                    🌶️
+                  </div>
                   <div>
                     <h3 className="font-medium">Call Us Direcrtly</h3>
                     <p>(+234)68 6244 7879</p>
@@ -231,7 +233,9 @@ function Menu() {
                   </div>
                 </li>
                 <li className="flex items-center space-x-4">
-                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[var(--border-bg)] p-4"></div>
+                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[var(--border-bg)] p-4">
+                    ⏱️
+                  </div>
                   <div>
                     <h3 className="font-medium">Restaurant Hours</h3>
                     <p>Mon - Thur: 5:00PM - 10:00PM</p>
@@ -240,7 +244,9 @@ function Menu() {
                   </div>
                 </li>
                 <li className="flex items-center space-x-4">
-                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[var(--border-bg)] p-4"></div>
+                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[var(--border-bg)] p-4">
+                    🥜
+                  </div>
                   <div>
                     <h3 className="font-medium">Special Occasions</h3>
                     <p>Complimentary dessert for birthdays</p>
@@ -248,7 +254,9 @@ function Menu() {
                   </div>
                 </li>
                 <li className="flex items-center space-x-4">
-                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[var(--border-bg)] p-4"></div>
+                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[var(--border-bg)] p-4">
+                    ⏱️
+                  </div>
                   <div>
                     <h3 className="font-medium">Dress Code</h3>
                     <p>Business casual to formal</p>
@@ -256,7 +264,9 @@ function Menu() {
                   </div>
                 </li>
                 <li className="flex items-center space-x-4">
-                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[var(--border-bg)] p-4"></div>
+                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[var(--border-bg)] p-4">
+                    🥜
+                  </div>
                   <div>
                     <h3 className="font-medium">Parking & Location</h3>
                     <p>Valet parking available</p>

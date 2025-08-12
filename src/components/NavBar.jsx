@@ -38,9 +38,12 @@ function NavBar() {
           </Link>
         </div>
         {loggedIn ? (
-          <button className="bg-gold-secondary text-gray-white rounded-3xl px-8 py-2">
+          <Link
+            to="/#reserve-table"
+            className="bg-gold-secondary text-gray-white rounded-3xl px-8 py-2"
+          >
             Reserve Table
-          </button>
+          </Link>
         ) : (
           <div className="flex items-center">
             <button

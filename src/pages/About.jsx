@@ -70,7 +70,7 @@ function About() {
             </p>
           </div>
 
-          <div className="container space-y-8 bg-gray-white text-center shadow-lg rounded-lg p-10">
+          <div className="container space-y-8 bg-gray-white text-center shadow-lg rounded-lg shadow-xl p-10">
             <div className="rounded-full bg-gold-primary w-20 h-20 mx-auto flex items-center justify-center">
               ⏱️
             </div>
@@ -182,10 +182,10 @@ function About() {
             <h1 className="text-4xl font-semibold">Our Journey</h1>
             <hr className="mx-auto w-16 border-t-[3px] border-gold-primary mt-3"></hr>
           </div>
-          <ul className="space-y-10">
-            {/* <hr className="border-gold-primary border-4 w-16" /> */}
+          <ul className="space-y-10 h-full relative">
+            <div className="bg-gold-primary w-[3px] h-full translate-y-0 absolute inset-x-1/2"></div>
             <div className="flex items-center">
-              <li className="rounded-lg bg-gray-border py-6 px-4 w-2/5 space-y-2">
+              <li className="rounded-lg shadow-xl bg-gray-border py-6 px-4 w-2/5 space-y-2">
                 <h3 className="text-gold-primary text-xl font-semibold">
                   The Beginning
                 </h3>
@@ -194,15 +194,15 @@ function About() {
                   with a vision to provide exceptional fine dining experiences.
                 </p>
               </li>
-              <p className="bg-gold-primary text-gray-white text-center py-2 px-4 w-20 rounded-3xl relative -right-10">
+              <p className="bg-gold-primary text-gray-white text-center py-2 px-4 w-20 rounded-3xl -translate-x-10 absolute left-[50%]">
                 1998
               </p>
             </div>
             <div className="flex items-center justify-end">
-              <p className="bg-gold-primary text-gray-white text-center py-2 px-4 w-20 rounded-3xl relative -left-10">
+              <p className="bg-gold-primary text-gray-white text-center py-2 px-4 w-20 rounded-3xl -translate-x-10 absolute left-[50%]">
                 2003
               </p>
-              <li className="rounded-lg bg-gray-border py-6 px-4 w-2/5 space-y-2">
+              <li className="rounded-lg shadow-xl bg-gray-border py-6 px-4 w-2/5 space-y-2">
                 <h3 className="text-gold-primary text-xl font-semibold">
                   First Recognition
                 </h3>
@@ -212,9 +212,9 @@ function About() {
                 </p>
               </li>
             </div>
-            <div className="clear-both border-r-4 border-gold-primary"></div>
+            <div className="clear-both"></div>
             <div className="flex items-center">
-              <li className="rounded-lg bg-gray-border py-6 px-4 w-2/5 space-y-2 ">
+              <li className="rounded-lg shadow-xl bg-gray-border py-6 px-4 w-2/5 space-y-2 ">
                 <h3 className="text-gold-primary text-xl font-semibold">
                   Micheline Star
                 </h3>
@@ -223,15 +223,15 @@ function About() {
                   Kitchen as one of the city's premier dining destinations.
                 </p>
               </li>
-              <p className="bg-gold-primary text-gray-white text-center py-2 px-4 w-20 rounded-3xl relative -right-10">
+              <p className="bg-gold-primary text-gray-white text-center py-2 px-4 w-20 rounded-3xl -translate-x-10 absolute left-[50%]">
                 2008
               </p>
             </div>
             <div className="flex items-center justify-end">
-              <p className="bg-gold-primary text-gray-white text-center py-2 px-4 w-20 rounded-3xl relative -left-10">
+              <p className="bg-gold-primary text-gray-white text-center py-2 px-4 w-20 rounded-3xl -translate-x-10 absolute left-[50%]">
                 2015
               </p>
-              <li className="rounded-lg bg-gray-border py-6 px-4 w-2/5 space-y-2">
+              <li className="rounded-lg shadow-xl bg-gray-border py-6 px-4 w-2/5 space-y-2">
                 <h3 className="text-gold-primary text-xl font-semibold">
                   Sustainability Initiative
                 </h3>
@@ -243,7 +243,7 @@ function About() {
             </div>
             <div className="clear-both"></div>
             <div className="flex items-center">
-              <li className="rounded-lg bg-gray-border py-6 px-4 w-2/5 space-y-2">
+              <li className="rounded-lg shadow-xl bg-gray-border py-6 px-4 w-2/5 space-y-2">
                 <h3 className="text-gold-primary text-xl font-semibold">
                   Innovative During Challenge
                 </h3>
@@ -253,15 +253,15 @@ function About() {
                   guests.
                 </p>
               </li>
-              <p className="bg-gold-primary text-gray-white text-center py-2 px-4 w-20 rounded-3xl relative -right-10">
+              <p className="bg-gold-primary text-gray-white text-center py-2 px-4 w-20 rounded-3xl -translate-x-10 absolute left-[50%]">
                 2020
               </p>
             </div>
             <div className="flex items-center justify-end">
-              <p className="bg-gold-primary text-gray-white text-center py-2 px-4 w-20 rounded-3xl relative -left-10">
+              <p className="bg-gold-primary text-gray-white text-center py-2 px-4 w-20 rounded-3xl -translate-x-10 absolute left-[50%]">
                 2023
               </p>
-              <li className="rounded-lg bg-gray-border py-6 px-4 w-2/5 space-y-2">
+              <li className="rounded-lg shadow-xl bg-gray-border py-6 px-4 w-2/5 space-y-2">
                 <h3 className="text-gold-primary text-xl font-semibold">
                   25th Anniversary
                 </h3>

@@ -12,8 +12,10 @@
 
   /* Primary Brand Colors */
   --gold-primary: #d4af37;
-  --gold-bg: #fffaea6c;
   --gold-secondary: #b8941f;
+  --gold-primary-shadow: #ddbc5086;
+  --gold-primary-shadow-2: #f7e096d2;
+  --gold-bg: #fffaea6c;
 
   /* Neutral Colors */
   --dark-primary: #2c2c2c;

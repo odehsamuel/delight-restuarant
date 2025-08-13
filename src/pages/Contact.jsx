@@ -124,7 +124,7 @@ function Contact() {
                 </label>
                 <input
                   type="text"
-                  className="h-12 rounded-xl border-gray-border bg-gray border-2 hover:border-gold-primary py-1.5 px-2 outline-none"
+                  className="h-12 rounded-xl border-gray-border bg-gray border hover:shadow-lg hover:bg-[var(--gold-bg)] hover:border-gold-primary py-1.5 px-2 outline-none"
                 />
               </li>
               <li>
@@ -133,7 +133,7 @@ function Contact() {
                 </label>
                 <input
                   type="text"
-                  className="h-12 rounded-xl border-gray-border border-2 hover:border-gold-primary py-1.5 px-2 outline-none"
+                  className="h-12 rounded-xl border-gray-border border hover:shadow-lg hover:bg-[var(--gold-bg)] hover:border-gold-primary py-1.5 px-2 outline-none"
                 />
               </li>
               <li>
@@ -142,7 +142,7 @@ function Contact() {
                 </label>
                 <input
                   type="email"
-                  className="h-12 rounded-xl border-gray-border border-2 hover:border-gold-primary py-1.5 px-2 outline-none"
+                  className="h-12 rounded-xl border-gray-border border hover:shadow-lg hover:bg-[var(--gold-bg)] hover:border-gold-primary py-1.5 px-2 outline-none"
                 />
               </li>
               <li>
@@ -151,7 +151,7 @@ function Contact() {
                 </label>
                 <input
                   type="text"
-                  className="h-12 rounded-xl border-gray-border border-2 hover:border-gold-primary py-1.5 px-2 outline-none"
+                  className="h-12 rounded-xl border-gray-border border hover:shadow-lg hover:bg-[var(--gold-bg)] hover:border-gold-primary py-1.5 px-2 outline-none"
                 />
               </li>
               <li className="col-span-2">
@@ -161,7 +161,7 @@ function Contact() {
                 <select
                   name="subject"
                   id=""
-                  className="w-full h-12 rounded-xl border-2 border-gray-border hover:border-gold-primary py-1.5 px-2 outline-none"
+                  className="w-full h-12 rounded-xl border border-gray-border hover:shadow-lg hover:bg-[var(--gold-bg)] hover:border-gold-primary py-1.5 px-2 outline-none"
                 >
                   <option value="">Select option</option>
                   <option value="">Select option</option>
@@ -176,7 +176,7 @@ function Contact() {
                   name="message"
                   id=""
                   placeholder="Please share you message, questions or special requirements..."
-                  className="w-full h-28 rounded-xl border-2 border-gray-border hover:border-gold-primary py-1.5 px-2 outline-none"
+                  className="w-full h-28 rounded-xl border hover:shadow-lg hover:bg-[var(--gold-bg)] border-gray-border hover:border-gold-primary py-1.5 px-2 outline-none"
                 ></textarea>
               </li>
               <button className="bg-gold-primary rounded-3xl py-2 text-gray-white text-center col-span-2 font-semibold">

@@ -58,7 +58,7 @@ function About() {
         </div>
 
         <div className="grid grid-cols-3 gap-x-14 gap-y-8 justify-center px-52">
-          <div className="container space-y-8 bg-gray-white text-center shadow-lg rounded-xl p-10">
+          <div className="container transition hover:-translate-y-2 space-y-8 bg-gray-white text-center shadow-lg rounded-xl p-10">
             <div className="rounded-full bg-gold-primary w-20 h-20 mx-auto flex items-center justify-center">
               ⭐
             </div>
@@ -70,7 +70,7 @@ function About() {
             </p>
           </div>
 
-          <div className="container space-y-8 bg-gray-white text-center shadow-lg rounded-lg shadow-xl p-10">
+          <div className="container transition hover:-translate-y-2 space-y-8 bg-gray-white text-center shadow-lg rounded-lg shadow-xl p-10">
             <div className="rounded-full bg-gold-primary w-20 h-20 mx-auto flex items-center justify-center">
               ⏱️
             </div>
@@ -82,7 +82,7 @@ function About() {
             </p>
           </div>
 
-          <div className="container space-y-8 bg-gray-white text-center shadow-lg rounded-lg p-10">
+          <div className="container transition hover:-translate-y-2 space-y-8 bg-gray-white text-center shadow-lg rounded-lg p-10">
             <div className="rounded-full bg-gold-primary w-20 h-20 mx-auto flex items-center justify-center">
               🥜
             </div>
@@ -93,7 +93,7 @@ function About() {
             </p>
           </div>
 
-          <div className="container space-y-8 bg-gray-white text-center shadow-lg rounded-lg p-10">
+          <div className="container transition hover:-translate-y-2 space-y-8 bg-gray-white text-center shadow-lg rounded-lg p-10">
             <div className="rounded-full bg-gold-primary w-20 h-20 mx-auto flex items-center justify-center">
               🌶️
             </div>
@@ -111,7 +111,7 @@ function About() {
           Meet Our Culinary Team
         </h1>
         <div className="grid grid-cols-3 gap-x-14 gap-y-8 justify-center px-64">
-          <div className="container space-y-8 bg-gray-white text-center shadow-lg rounded-lg p-10">
+          <div className="container transition hover:-translate-y-2 space-y-8 bg-gray-white text-center shadow-lg rounded-lg p-10">
             <div className="text-gray-white text-3xl font-semibold rounded-full bg-gold-primary w-20 h-20 mx-auto flex items-center justify-center">
               MB
             </div>
@@ -135,7 +135,7 @@ function About() {
             </div>
           </div>
 
-          <div className="container space-y-8 bg-gray-white text-center shadow-lg rounded-lg p-10">
+          <div className="container transition hover:-translate-y-2 space-y-8 bg-gray-white text-center shadow-lg rounded-lg p-10">
             <div className="text-gray-white text-3xl font-semibold rounded-full bg-gold-primary w-20 h-20 mx-auto flex items-center justify-center">
               SM
             </div>
@@ -155,7 +155,7 @@ function About() {
             </div>
           </div>
 
-          <div className="container space-y-8 bg-gray-white text-center shadow-lg rounded-lg p-10">
+          <div className="container transition hover:-translate-y-2 space-y-8 bg-gray-white text-center shadow-lg rounded-lg p-10">
             <p className="text-gray-white text-3xl font-semibold rounded-full bg-gold-primary w-20 h-20 mx-auto flex items-center justify-center">
               JP
             </p>

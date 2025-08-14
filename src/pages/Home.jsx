@@ -7,24 +7,13 @@ import Services from "./Menu";
 import Reservation from "../components/Reservation";
 import Story from "../components/Story";
 import Guests from "../components/Guests";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <div className="bg-gray-background">
       <NavBar />
       <section>
-        {/* <div className="content-container">
-          <div className="content-header">
-            <div className="discount__loading-2"></div>
-            <div className="discount__loading-1"></div>
-            <div className="discount__announcer">
-              <p>
-                <span>-30</span>% off sales
-              </p>
-            </div>
-            <h1 className="content-header-title">What do you Delight...?</h1>
-          </div>
-        </div> */}
         <div className="hero-section">
           <div className="text-gray-white mx-auto py-[4rem] w-[42rem]">
             <p className="bg-[var(--circle-1)] rounded-full h-24 w-24"></p>
@@ -36,14 +25,20 @@ function Home() {
                 Experience extraordinary flavors crafted by world-class chefs in
                 an elegant atmosphere.
               </p>
-              <p>
-                <span className="bg-gold-secondary text-gray-white rounded-3xl px-6 py-3 mr-4">
+              <div>
+                <Link
+                  to={"/menu"}
+                  className="bg-gold-primary hover:bg-gold-secondary inline-block transition hover:-translate-y-1 text-gray-white rounded-3xl px-6 py-3 mr-4"
+                >
                   View Our Menu
-                </span>
-                <span className="border-2 border-gray-border text-gray-white rounded-3xl px-6 py-3 ml-4">
+                </Link>
+                <Link
+                  to={"/#reserve"}
+                  className=" transition inline-block hover:-translate-y-1 border-2 border-gray-border text-gray-white rounded-3xl px-6 py-3 ml-4"
+                >
                   Make Reservation
-                </span>
-              </p>
+                </Link>
+              </div>
             </div>
             <p className="bg-[var(--circle-2)] rounded-full h-24 w-24 ml-[40rem]"></p>
           </div>

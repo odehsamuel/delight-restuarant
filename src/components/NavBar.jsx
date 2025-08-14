@@ -20,27 +20,27 @@ function NavBar() {
           {/* <i className="fa fa-cutlery logo fa-2x" aria-hidden="true"></i> */}
           {/* <img src="images/home.png" alt="logo image" /> */}
         </Link>
-        <div className="text-gray-white flex items-center">
-          <Link to="/about" className="mx-4 hover:text-gold-secondary">
+        <div className="text-gray-white flex items-center space-x-6">
+          <Link to="/about" className="hover:text-gold-secondary">
             <p>About</p>
           </Link>
-          <Link to="/menu" className="mx-4 hover:text-gold-secondary">
+          <Link to="/menu" className="hover:text-gold-secondary">
             <div className="menu-dropdown">
               <p>Menu</p>
               {/* <img src="/images/down-arrow.png" alt="arrow-down" /> */}
             </div>
           </Link>
-          <Link to="/chefs" className="mx-4 hover:text-gold-secondary">
+          <Link to="/chefs" className="hover:text-gold-secondary">
             <p>Chefs</p>
           </Link>
-          <Link to="/contact" className="mx-4 hover:text-gold-secondary">
+          <Link to="/contact" className="hover:text-gold-secondary">
             <p>Contact</p>
           </Link>
         </div>
         {loggedIn ? (
           <Link
             to="/#reserve-table"
-            className="bg-gold-secondary text-gray-white rounded-3xl px-8 py-2"
+            className="bg-gold-primary hover:bg-gold-secondary transition hover:-translate-y-1 text-gray-white rounded-3xl px-8 py-2"
           >
             Reserve Table
           </Link>

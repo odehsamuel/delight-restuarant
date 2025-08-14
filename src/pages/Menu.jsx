@@ -34,18 +34,15 @@ function Menu() {
             ingredients and innovative techniques
           </p>
           <div className="bg-[var(--gold-primary-shadow)] rounded-xl p-6">
-            <div className="bg-[var(--gold-primary-shadow)] relative shadow-xl text-center rounded-xl p-6">
-              <div className="space-y-4">
-                <span className="bg-gold-secondary rounded-3xl py-1 px-3 text-xs">
-                  Chef's Choice
-                </span>
-                <h3 className="text-2xl font-medium">Autumn Harvest Risotto</h3>
-                <p className="text-sm">
-                  Butternut squash with roasted chestnuts, sage, and aged
-                  Parmesan
-                </p>
-              </div>
-              <h3 className="absolute top-4 right-6 text-xl font-medium">
+            <div className="bg-[var(--gold-primary-shadow-2)] relative shadow-xl text-center rounded-xl space-y-4 p-6">
+              <span className="bg-gold-secondary rounded-3xl py-1 px-3 text-xs">
+                Chef's Choice
+              </span>
+              <h3 className="text-2xl font-medium">Autumn Harvest Risotto</h3>
+              <p className="text-sm">
+                Butternut squash with roasted chestnuts, sage, and aged Parmesan
+              </p>
+              <h3 className="absolute top-0 right-6 text-xl font-medium">
                 $34
               </h3>
             </div>
@@ -61,9 +58,9 @@ function Menu() {
             <hr className="mx-auto w-16 border-t-2 border-gold-primary mt-3"></hr>
           </div>
           <ul className="grid grid-cols-2 gap-8">
-            <li className="bg-gray-border border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
+            <li className="transition hover:-translate-y-2 bg-gray-border border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
               <div className="text-gray-medium space-y-4">
-                <h3 className="text-2xl text-[var(--dark-secondary)] font-medium">
+                <h3 className="text-2xl text-gold-primary font-medium">
                   Oysters Rockefeller
                 </h3>
                 <p>
@@ -76,10 +73,9 @@ function Menu() {
               </div>
               <p className="text-gold-primary text-2xl font-medium">$34</p>
             </li>
-
-            <li className="bg-gray-border border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
+            <li className="transition hover:-translate-y-2 bg-gray-border border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
               <div className="text-gray-medium space-y-4">
-                <h3 className="text-2xl text-[var(--dark-secondary)] font-medium">
+                <h3 className="text-2xl text-gold-primary font-medium">
                   Tuna Tartare
                 </h3>
                 <p>
@@ -90,9 +86,9 @@ function Menu() {
               </div>
               <p className="text-gold-primary text-2xl font-medium">$25</p>
             </li>
-            <li className="bg-gray-border border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
+            <li className="transition hover:-translate-y-2 bg-gray-border border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
               <div className="text-gray-medium space-y-4">
-                <h3 className="text-2xl text-[var(--dark-secondary)] font-medium">
+                <h3 className="text-2xl text-gold-primary font-medium">
                   Foie Gras Terrine
                 </h3>
                 <p>House-made terrine with brioche toast and cherry compote</p>
@@ -102,9 +98,9 @@ function Menu() {
               </div>
               <p className="text-gold-primary text-2xl font-medium">$18</p>
             </li>
-            <li className="bg-gray-border border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
+            <li className="transition hover:-translate-y-2 bg-gray-border border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
               <div className="text-gray-medium space-y-4">
-                <h3 className="text-[var(--dark-secondary)] text-2xl font-medium">
+                <h3 className="text-gold-primary text-2xl font-medium">
                   Burrata Caprese
                 </h3>
                 <p>
@@ -127,9 +123,9 @@ function Menu() {
             <hr className="mx-auto w-16 border-t-2 border-gold-primary mt-3"></hr>
           </div>
           <ul className="grid grid-cols-2 gap-8">
-            <li className="bg-gray-border border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
+            <li className="bg-gray-border transition hover:-translate-y-2 border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
               <div className="text-gray-medium space-y-4">
-                <h3 className="text-2xl text-[var(--dark-secondary)] font-medium">
+                <h3 className="text-2xl text-gold-primary font-medium">
                   Lobster Bisque
                 </h3>
                 <p>Rich cream soup with fresh lobster meat and cognae</p>
@@ -140,7 +136,7 @@ function Menu() {
               <p className="text-gold-primary text-2xl font-medium">$34</p>
             </li>
 
-            <li className="bg-gray-border border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
+            <li className="bg-gray-border transition hover:-translate-y-2 border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
               <div className="text-gray-medium space-y-4">
                 <h3 className="text-2xl text-[var(--dark-secondary)] font-medium">
                   Caesar Salad
@@ -152,7 +148,7 @@ function Menu() {
               </div>
               <p className="text-gold-primary text-2xl font-medium">$25</p>
             </li>
-            <li className="bg-gray-border border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
+            <li className="bg-gray-border transition hover:-translate-y-2 border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
               <div className="text-gray-medium space-y-4">
                 <h3 className="text-2xl text-[var(--dark-secondary)] font-medium">
                   Arugula & Pear Salad
@@ -162,7 +158,7 @@ function Menu() {
               </div>
               <p className="text-gold-primary text-2xl font-medium">$18</p>
             </li>
-            <li className="bg-gray-border border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
+            <li className="bg-gray-border transition hover:-translate-y-2 border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
               <div className="text-gray-medium space-y-4">
                 <h3 className="text-[var(--dark-secondary)] text-2xl font-medium">
                   French Onion Soup
@@ -186,7 +182,7 @@ function Menu() {
             <hr className="mx-auto w-16 border-t-2 border-gold-primary mt-3"></hr>
           </div>
           <ul className="grid grid-cols-2 gap-8">
-            <li className="bg-gray-border border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
+            <li className="bg-gray-border transition hover:-translate-y-2 border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
               <div className="text-gray-medium space-y-4">
                 <span className="bg-gold-secondary text-gray-white text-sm rounded-2xl py-1 px-3">
                   Signature Dish
@@ -203,7 +199,7 @@ function Menu() {
               <p className="text-gold-primary text-2xl font-medium">$85</p>
             </li>
 
-            <li className="bg-gray-border border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
+            <li className="bg-gray-border transition hover:-translate-y-2 border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
               <div className="text-gray-medium space-y-4">
                 <h3 className="text-2xl text-[var(--dark-secondary)] font-medium">
                   Atlantic Salmon
@@ -215,7 +211,7 @@ function Menu() {
               </div>
               <p className="text-gold-primary text-2xl font-medium">$25</p>
             </li>
-            <li className="bg-gray-border border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
+            <li className="bg-gray-border transition hover:-translate-y-2 border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
               <div className="text-gray-medium space-y-4">
                 <h3 className="text-2xl text-[var(--dark-secondary)] font-medium">
                   Duck Confit
@@ -225,7 +221,7 @@ function Menu() {
               </div>
               <p className="text-gold-primary text-2xl font-medium">$18</p>
             </li>
-            <li className="bg-gray-border border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
+            <li className="bg-gray-border transition hover:-translate-y-2 border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
               <div className="text-gray-medium space-y-4">
                 <h3 className="text-[var(--dark-secondary)] text-2xl font-medium">
                   Truffle Carbonara
@@ -239,7 +235,7 @@ function Menu() {
               </div>
               <p className="text-gold-primary text-2xl font-medium">$16</p>
             </li>
-            <li className="bg-gray-border border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
+            <li className="bg-gray-border transition hover:-translate-y-2 border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
               <div className="text-gray-medium space-y-4">
                 <h3 className="text-[var(--dark-secondary)] text-2xl font-medium">
                   Rack of Lamb
@@ -251,7 +247,7 @@ function Menu() {
               </div>
               <p className="text-gold-primary text-2xl font-medium">$42</p>
             </li>
-            <li className="bg-gray-border border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
+            <li className="bg-gray-border transition hover:-translate-y-2 border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
               <div className="text-gray-medium space-y-4">
                 <h3 className="text-[var(--dark-secondary)] text-2xl font-medium">
                   Vegetarian Wellington
@@ -278,7 +274,7 @@ function Menu() {
             <hr className="mx-auto w-16 border-t-2 border-gold-primary mt-3"></hr>
           </div>
           <ul className="grid grid-cols-2 gap-8">
-            <li className="bg-gray-border border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
+            <li className="bg-gray-border transition hover:-translate-y-2 border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
               <div className="text-gray-medium space-y-4">
                 <span className="bg-gold-secondary text-gray-white text-sm rounded-2xl py-1 px-3">
                   Popular
@@ -294,7 +290,7 @@ function Menu() {
               <p className="text-gold-primary text-2xl font-medium">$15</p>
             </li>
 
-            <li className="bg-gray-border border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
+            <li className="bg-gray-border transition hover:-translate-y-2 border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
               <div className="text-gray-medium space-y-4">
                 <h3 className="text-2xl text-[var(--dark-secondary)] font-medium">
                   Tiramisu
@@ -306,7 +302,7 @@ function Menu() {
               </div>
               <p className="text-gold-primary text-2xl font-medium">$16</p>
             </li>
-            <li className="bg-gray-border border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
+            <li className="bg-gray-border transition hover:-translate-y-2 border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
               <div className="text-gray-medium space-y-4">
                 <h3 className="text-2xl text-[var(--dark-secondary)] font-medium">
                   Creme Brulee
@@ -316,7 +312,7 @@ function Menu() {
               </div>
               <p className="text-gold-primary text-2xl font-medium">$12</p>
             </li>
-            <li className="bg-gray-border border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
+            <li className="bg-gray-border transition hover:-translate-y-2 border-l-[3px] hover:shadow-xl hover:border-gold-primary rounded-xl flex gap-x-10 p-6">
               <div className="text-gray-medium space-y-4">
                 <h3 className="text-[var(--dark-secondary)] text-2xl font-medium">
                   Seasonal Fruit Tart
@@ -327,6 +323,58 @@ function Menu() {
                 </p>
               </div>
               <p className="text-gold-primary text-2xl font-medium">$14</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section className="bg-gray-border pb-16">
+        <div className="bg-dark-secondary rounded-xl shadow-xl w-3/4 mx-auto py-12 px-10">
+          <div className="text-center pb-8">
+            <h1 className="text-gold-primary text-4xl font-semibold">
+              Wine Selection
+            </h1>
+            <hr className="mx-auto w-16 border-t-2 border-gold-primary mt-3"></hr>
+          </div>
+          <ul className="grid grid-cols-3 gap-8">
+            <li className="bg-dark-primary border-l-[3px] border-dark-primary space-y-4 hover:shadow-xl hover:border-gold-primary rounded-xl p-6">
+              <h3 className="text-2xl text-gold-primary font-medium">
+                Champagne Dom Perignon
+              </h3>
+              <p className="text-gray-medium">
+                Vinatge 2013 . France . Crisp, elegant with notes of citrus and
+                brioche
+              </p>
+              <p className="text-gray-white text-xl font-medium">$250</p>
+            </li>
+            <li className="bg-dark-primary border-l-[3px] border-dark-primary space-y-4 hover:shadow-xl hover:border-gold-primary rounded-xl p-6">
+              <h3 className="text-2xl text-gold-primary font-medium">
+                Caymus Cabernet Sauvignon
+              </h3>
+              <p className="text-gray-medium">
+                2020 . Napa Valley . Rich, full-bodied with dark fruit flavors
+              </p>
+              <p className="text-gray-white text-xl font-medium">$160</p>
+            </li>
+            <li className="bg-dark-primary border-l-[3px] border-dark-primary space-y-4 hover:shadow-xl hover:border-gold-primary rounded-xl p-6">
+              <h3 className="text-2xl text-gold-primary font-medium">
+                Chablis Grand Cru
+              </h3>
+              <p className="text-gray-medium">
+                2019 . Burgundy . Mineral-driven with green apple and citrus
+                notes
+              </p>
+              <p className="text-gray-white text-xl font-medium">$95</p>
+            </li>
+            <li className="bg-dark-primary border-l-[3px] border-dark-primary space-y-4 hover:shadow-xl hover:border-gold-primary rounded-xl p-6">
+              <h3 className="text-gold-primary text-2xl font-medium">
+                Barolo Brunate
+              </h3>
+              <p className="text-gray-medium">
+                2018 . Piedmont . Complex with cherry, rose, and earthy
+                undertones
+              </p>
+
+              <p className="text-gray-white text-xl font-medium">$140</p>
             </li>
           </ul>
         </div>

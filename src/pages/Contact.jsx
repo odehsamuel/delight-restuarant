@@ -269,7 +269,7 @@ function Contact() {
             Experience culinary excellence in an intimate setting. Reserve your
             table today for an unforgettable Evening.
           </p>
-          <button className="text-gold-primary bg-gray-white rounded-3xl px-8 py-3 text-lg font-medium">
+          <button className="text-gold-primary bg-gray-white transition hover:-translate-y-1 hover:shadow-xl rounded-3xl px-8 py-3 text-lg font-medium">
             Make a Reservation
           </button>
         </div>
@@ -284,19 +284,19 @@ function Contact() {
             behind-the-scene contents, and special events.
           </p>
           <div className="flex items-center justify-center w-1/3 mx-auto">
-            <div className="rounded-full bg-gold-primary w-16 h-16 mx-auto flex items-center justify-center">
+            <div className="transition hover:-translate-y-1 rounded-full bg-gold-primary w-16 h-16 mx-auto flex items-center justify-center">
               ⭐
             </div>
-            <div className="rounded-full bg-gold-primary w-16 h-16 mx-auto flex items-center justify-center">
+            <div className="transition hover:-translate-y-1 rounded-full bg-gold-primary w-16 h-16 mx-auto flex items-center justify-center">
               ⭐
             </div>
-            <div className="rounded-full bg-gold-primary w-16 h-16 mx-auto flex items-center justify-center">
+            <div className="transition hover:-translate-y-1 rounded-full bg-gold-primary w-16 h-16 mx-auto flex items-center justify-center">
               ⭐
             </div>
-            <div className="rounded-full bg-gold-primary w-16 h-16 mx-auto flex items-center justify-center">
+            <div className="transition hover:-translate-y-1 rounded-full bg-gold-primary w-16 h-16 mx-auto flex items-center justify-center">
               ⭐
             </div>
-            <div className="rounded-full bg-gold-primary w-16 h-16 mx-auto flex items-center justify-center">
+            <div className="transition hover:-translate-y-1 rounded-full bg-gold-primary w-16 h-16 mx-auto flex items-center justify-center">
               ⭐
             </div>
           </div>

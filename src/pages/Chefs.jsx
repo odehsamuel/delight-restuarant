@@ -769,7 +769,7 @@ function Chefs() {
             <h3 className="text-4xl font-bold">Our Culinary Philosophy</h3>
             <hr className="mx-auto w-16 border-t-[3px] border-gold-primary mt-3"></hr>
           </div>
-          <h1 className="text-gold-primary text-6xl text-left h-6">❞</h1>
+          <h1 className="text-gold-primary text-6xl text-left h-6">❝</h1>
           <p className="text-gray-medium text-base px-12">
             Cooking is not just about feeding the body; it's about nourishing
             the soul. Every dish we create is a canvas where tradition meets

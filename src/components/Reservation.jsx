@@ -64,7 +64,7 @@ function Reservation() {
     //     </form>
     //   </div>
     // </div>
-    <div id="reserve-table" className="bg-gray-border py-32">
+    <div id="#reserve" className="bg-gray-border py-32">
       <div className="bg-dark-secondary w-3/6 rounded-2xl px-10 pt-8 pb-16 mx-auto text-center">
         <h2 className="text-4xl text-gray-white my-6 font-semibold">
           Reserve Your Table Today!

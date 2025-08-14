@@ -78,19 +78,19 @@ function SpecialOffers() {
                 perfect balance of heat and flavor
               </p>
               <div className="food-labels">
-                <div className="flex items-center">
+                <div className="flex items-center justify-stretch">
                   <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
                     ⏱️
                   </span>
                   <p>15-20mins</p>
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center justify-stretch">
                   <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
                     🥜
                   </span>
                   <p>Peanut Sauce</p>
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center justify-stretch">
                   <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
                     🌶️
                   </span>
@@ -154,19 +154,19 @@ function SpecialOffers() {
                 perfect balance of heat and flavor
               </p>
               <div className="food-labels">
-                <div className="flex items-center">
+                <div className="flex items-center justify-stretch">
                   <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
                     ⏱️
                   </span>
                   <p>15-20mins</p>
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center justify-stretch">
                   <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
                     🥜
                   </span>
                   <p>Peanut Sauce</p>
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center justify-stretch">
                   <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
                     🌶️
                   </span>
@@ -230,19 +230,19 @@ function SpecialOffers() {
                 perfect balance of heat and flavor
               </p>
               <div className="food-labels">
-                <div className="flex items-center">
+                <div className="flex items-center justify-stretch">
                   <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
                     ⏱️
                   </span>
                   <p>15-20mins</p>
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center justify-stretch">
                   <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
                     🥜
                   </span>
                   <p>Peanut Sauce</p>
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center justify-stretch">
                   <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
                     🌶️
                   </span>
@@ -306,19 +306,19 @@ function SpecialOffers() {
                 perfect balance of heat and flavor
               </p>
               <div className="food-labels">
-                <div className="flex items-center">
+                <div className="flex items-center justify-stretch">
                   <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
                     ⏱️
                   </span>
                   <p>15-20mins</p>
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center justify-stretch">
                   <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
                     🥜
                   </span>
                   <p>Peanut Sauce</p>
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center justify-stretch">
                   <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
                     🌶️
                   </span>
@@ -382,19 +382,19 @@ function SpecialOffers() {
                 perfect balance of heat and flavor
               </p>
               <div className="food-labels">
-                <div className="flex items-center">
+                <div className="flex items-center justify-stretch">
                   <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
                     ⏱️
                   </span>
                   <p>15-20mins</p>
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center justify-stretch">
                   <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
                     🥜
                   </span>
                   <p>Peanut Sauce</p>
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center justify-stretch">
                   <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
                     🌶️
                   </span>
@@ -458,19 +458,19 @@ function SpecialOffers() {
                 perfect balance of heat and flavor
               </p>
               <div className="food-labels">
-                <div className="flex items-center">
+                <div className="flex items-center justify-stretch">
                   <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
                     ⏱️
                   </span>
                   <p>15-20mins</p>
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center justify-stretch">
                   <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
                     🥜
                   </span>
                   <p>Peanut Sauce</p>
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center justify-stretch">
                   <span className="rounded-full bg-gold-primary w-6 h-6 flex items-center justify-center">
                     🌶️
                   </span>

@@ -1,7 +1,10 @@
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import about_img from "../assets/images/main.jpg";
+import { useState } from "react";
 
 function About() {
+  const [defaultDetail, setDefault] = useState(true);
   return (
     <>
       <NavBar />
@@ -44,10 +47,24 @@ function About() {
                 innovative culinary evolution.
               </p>
             </div>
-            <div className="bg-gold-primary text-gray-white rounded-xl text-center w-2/5 h-[20rem] py-36">
-              <p>Historic Restaurant Photo</p>
-              <p>Est. 1998</p>
-            </div>
+            {defaultDetail ? (
+              <div className="bg-gold-primary text-gray-white rounded-xl text-center w-2/5 h-[20rem] py-36">
+                <p>Historic Restaurant Photo</p>
+                <p>Est. 1998</p>
+              </div>
+            ) : (
+              <div className="relative rounded-xl text-gray-white text-center w-2/5 h-[20rem] overflow-hidden">
+                <img
+                  src={about_img}
+                  alt="background image"
+                  className="w-full h-[20rem] object-cover"
+                />
+                <div className="absolute inset-y-36 translate-x-1/2 le">
+                  <p>Historic Restaurant Photo</p>
+                  <p>Est. 1998</p>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </section>
@@ -70,7 +87,7 @@ function About() {
             </p>
           </div>
 
-          <div className="container transition hover:-translate-y-2 space-y-8 bg-gray-white text-center shadow-lg rounded-lg shadow-xl p-10">
+          <div className="container transition hover:-translate-y-2 space-y-8 bg-gray-white text-center shadow-lg rounded-lg p-10">
             <div className="rounded-full bg-gold-primary w-20 h-20 mx-auto flex items-center justify-center">
               ⏱️
             </div>

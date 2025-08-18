@@ -12,34 +12,34 @@ function SpecialOffers() {
         <h1 className="text-center font-bold text-4xl pb-6 pt-6 text-slate-800">
           Special Offers
         </h1>
-        <ul className="flex justify-center text-gold-primary pb-16">
+        <ul className="md:flex grid grid-flow-row gap-6 justify-center text-gold-primary pb-16">
           <a
             href="#"
-            className="py-2 px-8 mx-4 rounded-3xl border-2 border-gold-primary bg-gold-primary text-gray-white"
+            className="py-2 px-8 rounded-3xl border-2 border-gold-primary bg-gold-primary text-gray-white text-center"
           >
-            <li className="">All</li>
+            <li>All</li>
           </a>
           <a
             href="#"
-            className="py-2 px-8 mx-4 rounded-3xl border-2 border-gold-primary hover:bg-gold-primary hover:text-gray-white"
+            className="py-2 px-8 rounded-3xl border-2 border-gold-primary hover:bg-gold-primary hover:text-gray-white text-center"
           >
             <li>Appetizers</li>
           </a>
           <a
             href="#"
-            className="py-2 px-8 mx-4 rounded-3xl border-2 border-gold-primary hover:bg-gold-primary hover:text-gray-white"
+            className="py-2 px-8 rounded-3xl border-2 border-gold-primary hover:bg-gold-primary hover:text-gray-white text-center"
           >
             <li>Main Course</li>
           </a>
           <a
             href="#"
-            className="py-2 px-8 mx-4 rounded-3xl border-2 border-gold-primary hover:bg-gold-primary hover:text-gray-white"
+            className="py-2 px-8 rounded-3xl border-2 border-gold-primary hover:bg-gold-primary hover:text-gray-white text-center"
           >
             <li>Desserts</li>
           </a>
           <a
             href="#"
-            className="py-2 px-8 mx-4 rounded-3xl border-2 border-gold-primary hover:bg-gold-primary hover:text-gray-white"
+            className="py-2 px-8 rounded-3xl border-2 border-gold-primary hover:bg-gold-primary hover:text-gray-white text-center"
           >
             <li>Beverages</li>
           </a>

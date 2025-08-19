@@ -4,12 +4,16 @@
   "description": "Handling my restuarant backend",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js,"
+    "start": "nodemon server.js,"
   },
   "author": "Odeh Samuel",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.0"
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.0",
+    "mongodb": "^7.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"

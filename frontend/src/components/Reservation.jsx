@@ -1,8 +1,17 @@
 import menu from "../assets/images/menu.png";
 import flower from "../assets/images/flower.png";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 function Reservation() {
+  const buttonVariants = {
+    hover: {
+      scale: 1.1,
+      transition: {
+        yoyo: Infinity,
+      },
+    },
+  };
   return (
     // <div className="py-10 px-4 bg-slate-200 relative">
     //   <h1 className="text-center text-slate-800 font-bold text-3xl pb-8">
@@ -73,12 +82,14 @@ function Reservation() {
           Experience culinary excellence in an intimate setting. Book your table
           for an unforgettable evening.
         </p>
-        <Link
-          to="/menu"
-          className="bg-gold-primary text-gray-white rounded-3xl px-6 py-2 text-lg"
-        >
-          Make a Reservation
-        </Link>
+        <motion.button variants={buttonVariants} whileHover="hover">
+          <Link
+            to="/menu"
+            className="bg-gold-primary text-gray-white rounded-3xl px-6 py-2 text-lg"
+          >
+            Make a Reservation
+          </Link>
+        </motion.button>
       </div>
       {/* <section className="bg-gray-border py-24">
         <div className="w-3/4 mx-auto py-10">

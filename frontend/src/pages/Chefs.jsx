@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
+import { motion } from "framer-motion";
 // import Chef1 from "../assets/images/chef3.jpg";
 // import Chef2 from "../assets/images/chef7.jpg";
 // import Chef3 from "../assets/images/chef.jpg";
@@ -10,6 +11,44 @@ import NavBar from "../components/NavBar";
 // import { Link } from "react-router-dom";
 
 function Chefs() {
+  const heroVariants = {
+    hidden: {
+      y: "-100vh",
+    },
+    visible: {
+      y: 0,
+      transition: {
+        duration: 0.5,
+      },
+    },
+  };
+
+  const headerTextVariant = {
+    hidden: {
+      y: "-100vh",
+    },
+    visible: {
+      y: 0,
+      transition: {
+        // delay: 0.5,
+        duration: 0.8,
+      },
+    },
+  };
+
+  const textVariant = {
+    hidden: {
+      x: "-100vw",
+    },
+    visible: {
+      x: 0,
+      transition: {
+        // delay: 0.5,
+        duration: 0.8,
+      },
+    },
+  };
+
   // const [opened, setOpened] = useState(false);
 
   return (
@@ -361,19 +400,29 @@ function Chefs() {
     // </div>
     <>
       <NavBar />
-      <div className="bg-[var(--hero-bg)] relative top-[6.6rem] mb-[6.6rem] h-[25rem]">
+      <motion.div
+        className="bg-[var(--hero-bg)] relative top-[6.6rem] mb-[6.6rem] h-[25rem]"
+        variants={heroVariants}
+        initial="hidden"
+        animate="visible"
+      >
         <div className="text-gray-white mx-auto pb-[6rem] w-[42rem] relative top-20">
           <p className="bg-[var(--circle-1)] rounded-full h-[4.5rem] w-[4.5rem] absolute left-10"></p>
-          <div className="text-center w-[37rem] pt-8 mx-auto ">
-            <h3 className="text-5xl font-bold">Meet Our Culinary Masters</h3>
-            <p className="py-8 text-lg">
+          <div
+            className="text-center w-[37rem] pt-8 mx-auto "
+            variants={headerTextVariant}
+          >
+            <motion.h3 className="text-5xl font-bold">
+              Meet Our Culinary Masters
+            </motion.h3>
+            <motion.p className="py-8 text-lg" variants={textVariant}>
               Discover the passionate chefs behind every exceptionaldish at
               Delightful Kitchen.
-            </p>
+            </motion.p>
           </div>
           <p className="bg-[var(--circle-3)] rounded-full h-24 w-24 absolute right-0 bottom-16"></p>
         </div>
-      </div>
+      </motion.div>
       <section className="bg-gray-border py-16">
         <ul className="space-y-20">
           <li className="bg-gray-white w-3/4 mx-auto rounded-xl shadow-lg px-10 py-8 space-y-6">

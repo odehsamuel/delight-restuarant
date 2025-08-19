@@ -8,24 +8,73 @@ import vegetables from "../assets/images/vegetables.png";
 import meals from "../assets/images/serving-dish.png";
 import fast from "../assets/images/fast-food.png";
 import drinks from "../assets/images/cheers.png";
+import { motion } from "framer-motion";
 
 function Menu() {
+  const heroVariants = {
+    hidden: {
+      y: "-100vh",
+    },
+    visible: {
+      y: 0,
+      transition: {
+        duration: 0.5,
+      },
+    },
+  };
+
+  const headerTextVariant = {
+    hidden: {
+      y: "-100vh",
+    },
+    visible: {
+      y: 0,
+      transition: {
+        // delay: 0.5,
+        duration: 0.8,
+      },
+    },
+  };
+
+  const textVariant = {
+    hidden: {
+      x: "-100vw",
+    },
+    visible: {
+      x: 0,
+      transition: {
+        // delay: 0.5,
+        duration: 0.8,
+      },
+    },
+  };
+
   return (
     <>
       <NavBar />
-      <div className="bg-[var(--hero-bg)] relative top-[6.6rem] mb-[6.6rem] h-[15rem]">
+      <motion.div
+        className="bg-[var(--hero-bg)] relative top-[6.6rem] mb-[6.6rem] h-[15rem]"
+        variants={heroVariants}
+        initial="hidden"
+        animate="visible"
+      >
         <div className="text-gray-white mx-auto pb-[6rem] w-[42rem] relative top-20">
           <p className="bg-[var(--circle-1)] rounded-full h-20 w-20 absolute top-3"></p>
           <div className="text-center w-[36rem] mx-auto ">
-            <h3 className="text-5xl font-bold">Our Exquisite Menu</h3>
-            <p className="py-8 text-lg">
+            <motion.h3
+              className="text-5xl font-bold"
+              variants={headerTextVariant}
+            >
+              Our Exquisite Menu
+            </motion.h3>
+            <motion.p className="py-8 text-lg" variants={textVariant}>
               Discover culinary masterpiece crafted with passion and the finest
               ingredients
-            </p>
+            </motion.p>
           </div>
           <p className="bg-[var(--circle-2)] rounded-full h-24 w-24 absolute right-0 -top-6"></p>
         </div>
-      </div>
+      </motion.div>
       <section className="bg-gray-border py-16">
         <div className="bg-gold-primary text-gray-white text-center rounded-xl w-3/4 mx-auto p-10 space-y-6">
           <h3 className="text-3xl font-medium">Chef's Seasonal Selection</h3>

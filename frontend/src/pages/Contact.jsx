@@ -1,23 +1,72 @@
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import { motion } from "framer-motion";
 
 function Contact() {
+  const heroVariants = {
+    hidden: {
+      y: "-100vh",
+    },
+    visible: {
+      y: 0,
+      transition: {
+        duration: 0.5,
+      },
+    },
+  };
+
+  const headerTextVariant = {
+    hidden: {
+      y: "-100vh",
+    },
+    visible: {
+      y: 0,
+      transition: {
+        // delay: 0.5,
+        duration: 0.8,
+      },
+    },
+  };
+
+  const textVariant = {
+    hidden: {
+      x: "-100vw",
+    },
+    visible: {
+      x: 0,
+      transition: {
+        // delay: 0.5,
+        duration: 0.8,
+      },
+    },
+  };
+
   return (
     <>
       <NavBar />
-      <div className="bg-[var(--hero-bg)] relative top-[6.6rem] mb-[6.6rem] h-[15rem]">
+      <motion.div
+        className="bg-[var(--hero-bg)] relative top-[6.6rem] mb-[6.6rem] h-[15rem]"
+        variants={heroVariants}
+        initial="hidden"
+        animate="visible"
+      >
         <div className="text-gray-white mx-auto pb-[6rem] w-[42rem] relative top-20">
           <p className="bg-[var(--circle-1)] rounded-full h-20 w-20 absolute top-3"></p>
           <div className="text-center w-[36rem] mx-auto ">
-            <h3 className="text-5xl font-bold">Contact US</h3>
-            <p className="py-8 text-lg">
+            <motion.h3
+              className="text-5xl font-bold"
+              variants={headerTextVariant}
+            >
+              Contact US
+            </motion.h3>
+            <motion.p className="py-8 text-lg" variants={textVariant}>
               Get in touch with us for reservations, inquires or to plan your
               perfect dining experience
-            </p>
+            </motion.p>
           </div>
           <p className="bg-[var(--circle-2)] rounded-full h-24 w-24 absolute right-0 -top-6"></p>
         </div>
-      </div>
+      </motion.div>
       <section className="bg-gray-border py-16">
         <div className="flex justify-around w-3/4 mx-auto">
           <div className="bg-gray-white p-8 rounded-xl shadow-xl w-2/5">

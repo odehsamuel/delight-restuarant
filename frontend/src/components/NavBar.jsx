@@ -3,6 +3,7 @@ import Sidebar from "./Sidebar";
 import togggleIcon from "../assets/images/hamburger.png";
 import { useState } from "react";
 import RegModal from "./RegModal";
+import { delay, motion, vw } from "framer-motion";
 
 function NavBar() {
   const [loggedIn, setloggedIn] = useState(false);
@@ -10,15 +11,70 @@ function NavBar() {
   const [title, setTitle] = useState("");
   const [openSidebar, setOpensidebar] = useState(null);
 
+  const navVariant = {
+    hidden: {
+      y: "-100vh",
+    },
+    visible: {
+      y: 0,
+      transition: {
+        duration: 0.5,
+      },
+    },
+  };
+
+  const logoVariant = {
+    hidden: {
+      y: "-100vh",
+    },
+    visible: {
+      y: 0,
+      transition: {
+        duration: 0.8,
+      },
+    },
+  };
+
+  const loaderVariant = {
+    hidden: {
+      // x: [0, 20],
+      // y: [20, 0],
+    },
+    visible: {
+      // transition: {
+      //   x: [-20, 20],
+      //   y: [20, -20],
+      //   delay: 0.5,
+      //   duration: 1,
+      // },
+    },
+  };
+
   return (
     <>
       {openSidebar && <Sidebar closeModal={() => setOpensidebar(false)} />}
       {/* {opened && <RegModal name={title} closeModal={() => setOpened(false)} />} */}
-      <nav className="bg-dark-secondary z-10 flex fixed justify-between items-center px-16 py-8 w-full">
+      <motion.nav
+        className="bg-dark-secondary z-10 flex fixed justify-between items-center px-16 py-8 w-full"
+        variants={navVariant}
+        initial="hidden"
+        animate="visible"
+      >
         <Link to="/" className="">
-          <h3 className="text-gray-white text-4xl">
-            Delightful<span className="text-gold-secondary">Kitchen</span>
-          </h3>
+          <motion.h3
+            className="text-gray-white text-4xl"
+            variants={logoVariant}
+          >
+            Delightful
+            <span className="text-gold-secondary">Kitchen</span>
+            <motion.span
+              className="rounded-full bg-gray-white w-2 h-2 flex"
+              variants={loaderVariant}
+              animate="hidden"
+            ></motion.span>
+            {/* <span className="rounded-full bg-gray-white w-2 h-2 flex"></span>
+            <span className="rounded-full bg-gray-white w-2 h-2 flex"></span> */}
+          </motion.h3>
           {/* <i className="fa fa-cutlery logo fa-2x" aria-hidden="true"></i> */}
           {/* <img src="images/home.png" alt="logo image" /> */}
         </Link>
@@ -79,7 +135,7 @@ function NavBar() {
           <span className="w-full h-0.5 bg-slate-100"></span>
           <span className="w-full h-0.5 bg-slate-100"></span>
         </div>
-      </nav>
+      </motion.nav>
     </>
   );
 }

@@ -1,9 +1,27 @@
 import React from "react";
 import ChineseRecipe from "../assets/images/b37299c474375bdf7c979d11caaa8917.jpg";
+import { motion } from "framer-motion";
 
 function Story() {
+  const storyVariants = {
+    hidden: {
+      y: "100vh",
+    },
+    visible: {
+      y: 0,
+      transition: {
+        duration: 0.5,
+      },
+    },
+  };
+
   return (
-    <div className="bg-gray-border py-20">
+    <motion.div
+      className="bg-gray-border py-20"
+      variants={storyVariants}
+      initial="hidden"
+      animate="visible"
+    >
       <div className="bg-gray-white rounded-2xl shadow-lg px-20 py-20 w-3/4 mx-auto">
         <div className="text-center pb-12">
           <h3 className="text-4xl font-bold">Our Story</h3>
@@ -40,7 +58,7 @@ function Story() {
           />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
